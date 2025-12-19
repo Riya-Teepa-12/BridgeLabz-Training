@@ -15,13 +15,13 @@ class MultiplicationTable{
         int arr[] =new int[10];
        
        //taking input from the user
-         for(int i=1;i<arr.length;i++){
-            arr[i]=(i) * number;
+         for(int i=0;i<arr.length;i++){
+            arr[i]=(i+1) * number;
         }
 
        //displaying the table
-           for(int i=1;i<arr.length;i++){
-             System.out.println("the result from the array in the " +  number +"*" + i+ "="+arr[i] );
+           for(int i=0;i<arr.length;i++){
+             System.out.println("the result from the array in the " +  number +"*" + (i+1)+ "="+arr[i] );
            }
          
             input.close();
