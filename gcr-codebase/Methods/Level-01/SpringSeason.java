@@ -11,12 +11,9 @@ class SpringSeason{
 	   //creating scanner object to take input from user
       Scanner input =new Scanner(System.in);
 	  
-	  //taking input from the user 
-	   System.out.println("Enter the month:");
-       int month = input.nextInt();
-	   
-	   System.out.println("Enter the day and it cannot be nagative:");
-       int day = input.nextInt();
+	  //taking input from the command line argument
+       int month = Integer.parseInt(args[0]);
+       int day = Integer.parseInt(args[1]);
 	    
 	  
 	  //creating class object and calling method
