@@ -31,7 +31,7 @@
 	  //creating class object and calling the methods
 	  CompareTwoStrings check = new CompareTwoStrings();
 	   boolean    result   = check.compareStrings( string1, string2);
-	   boolean    result1   = check.compareStrings( string1, string2);
+	   boolean    result1   = check.compareStrings1( string1, string2);
 	   
 	   //displaying the result
 	   System.out.println("Using charAt() method " +result);
