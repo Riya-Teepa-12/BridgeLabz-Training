@@ -2,7 +2,7 @@ import java.util.*;
 
 public class CompareTwoStrings{
 
-    //method to count the substring occurence in string
+    //method to compare the string 
     public static int compareTwoStrings(String s1, String s2) {
         int minimumLength = Math.min(s1.length(),s2.length());
 		for(int i=0;i<minimumLength;i++){
