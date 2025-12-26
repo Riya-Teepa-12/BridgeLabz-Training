@@ -13,14 +13,14 @@ This repository documents my **day-wise learning progress** during the BridgeLab
   * Notepad++ (Text Editor)
   * Java JDK
   * GitHub account
-  * 
+   
 * Studied Git commands:
   * `git init`
   * `git clone`
   * `git add`
   * `git commit`
   * `git push`
-  * 
+   
 
 <img width="620" height="279" alt="image" src="https://github.com/user-attachments/assets/76a290ca-35dd-44a3-9413-7c01ed831d32" />
 
@@ -37,6 +37,7 @@ This repository documents my **day-wise learning progress** during the BridgeLab
 
 **Code Link:**
  Program Prerequisites
+ [https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/program-requisite](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/program-requisite)
 
 
 **Git Activity:**
@@ -66,7 +67,7 @@ This repository documents my **day-wise learning progress** during the BridgeLab
 
 **Code Link:**
  Programming Elements
-[https://github.com/yukta-choudhary/BridgeLabz-Training/tree/core-java-practice/BridgeLabz-Training/core-java-practice/gcr-codebase/programming-elements](https://github.com/yukta-choudhary/BridgeLabz-Training/tree/core-java-practice/BridgeLabz-Training/core-java-practice/gcr-codebase/programming-elements)
+[https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/programming-elements](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/programming-elements)
 
 **Git Activity:**
 
@@ -98,7 +99,7 @@ This repository documents my **day-wise learning progress** during the BridgeLab
 
 **Code Link:**
 Control Flow Programs
-
+[https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/control-flow](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/control-flow)
 
 **Git Activity:**
 * Code committed and pushed to GitHub
@@ -123,7 +124,7 @@ Control Flow Programs
 
 **Code Link:**
 Arrays Practice
-
+[https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/arrays](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/arrays)
 
 **Git Activity:**
 
@@ -157,7 +158,7 @@ Arrays Practice
 
 **Code Link:**
 Java Methods
-
+[https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/Methods](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/Methods)
 
 **Git Activity:**
 
@@ -195,7 +196,7 @@ Java Methods
 
 **Code Link:**
 Strings & Exceptions
-
+[https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/Strings](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/Strings)
 
 **Git Activity:**
 
@@ -228,7 +229,7 @@ Strings & Exceptions
 
 **Code Link:**
 Extra Practice
-
+[https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/Extra](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/Extra)
 
 **Git Activity:**
 
@@ -265,7 +266,7 @@ Extra Practice
 
 **Code Link:**
 Scenario-Based Programs
-
+[https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase/Day-01](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase/Day-01)
 
 **Git Activity:**
 
