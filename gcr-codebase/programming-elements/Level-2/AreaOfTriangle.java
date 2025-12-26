@@ -1,5 +1,5 @@
 import java.util.*;
-class AreaOfTriangle{
+public class AreaOfTriangle{
   public static void main(String []args){
    	Scanner kb=new Scanner(System.in);
        // Taking height and base from the user as input
