@@ -13,6 +13,6 @@ public class SumOfNumbers{
            }
             else
               System.out.println("The sum of"+" " +n+ " "+"natural numbers is" +" " +sumOfNumber);
-         
+        input.close(); 
     }
 }
