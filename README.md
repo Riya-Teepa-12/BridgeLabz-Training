@@ -37,7 +37,7 @@ This repository documents my **day-wise learning progress** during the BridgeLab
 
 **Code Link:**
  Program Prerequisites
- [https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/program-requisite](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/program-requisite)
+ (https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/program-requisite)
 
 
 **Git Activity:**
@@ -67,7 +67,7 @@ This repository documents my **day-wise learning progress** during the BridgeLab
 
 **Code Link:**
  Programming Elements
-[https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/programming-elements](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/programming-elements)
+(https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/programming-elements)
 
 **Git Activity:**
 
@@ -99,7 +99,7 @@ This repository documents my **day-wise learning progress** during the BridgeLab
 
 **Code Link:**
 Control Flow Programs
-[https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/control-flow](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/control-flow)
+(https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/control-flow)
 
 **Git Activity:**
 * Code committed and pushed to GitHub
@@ -124,7 +124,7 @@ Control Flow Programs
 
 **Code Link:**
 Arrays Practice
-[https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/arrays](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/arrays)
+(https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/arrays)
 
 **Git Activity:**
 
@@ -158,7 +158,7 @@ Arrays Practice
 
 **Code Link:**
 Java Methods
-[https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/Methods](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/Methods)
+(https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/Methods)
 
 **Git Activity:**
 
@@ -196,7 +196,7 @@ Java Methods
 
 **Code Link:**
 Strings & Exceptions
-[https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/Strings](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/Strings)
+(https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/Strings)
 
 **Git Activity:**
 
@@ -229,7 +229,7 @@ Strings & Exceptions
 
 **Code Link:**
 Extra Practice
-[https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/Extra](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/Extra)
+(https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/Extra)
 
 **Git Activity:**
 
@@ -237,37 +237,28 @@ Extra Practice
 
 ---
 
-### Day 9 – Scenario-Based & Real-World Java Problems
+### 🗓 Day 9 – Scenario-Based & LeetCode Array Practice  
+*(Date: 24-Dec-2025)*
 
-(**Date: 24-Dec-2025**)
+- Solved *2 scenario-based problems* using Java.
+- Practiced *5 array-based problems on LeetCode*.
+- Focused on logical thinking and clean code.
+- Committed and pushed all solutions.
 
-**Topics studied:**
+🔗 *Code Links:*  
+👉 [Scenario Based Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase/Day-01)
+👉 [LeetCode Array Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/Array)
 
-* Scenario-based problem solving
-* Real-world Java application logic
-* Stack overflow implementation
-* `hashCode()` method and overriding
-* Synchronized vs non-synchronized methods
-* String memory management (SCP)
+---
 
-**Practiced Scenario-Based Problems:**
+### 🗓 Day 10 – Scenario-Based & LeetCode Array Practice  
+*(Date: 26-Dec-2025)*
 
-1. Coffee Counter Chronicles
-2. Maya’s BMI Fitness Tracker
+- Solved *3 scenario-based problems* using Java.
+- Practiced *5 string-based problems on LeetCode*.
+- Focused on logical thinking and clean code.
+- Committed and pushed all solutions.
 
-**Concepts Used:**
-
-* Variables and primitive data types
-* Scanner input/output
-* Operators
-* Conditional logic (`if-else`, `switch`)
-* Loops (`while`, `for`)
-* `break` and `continue`
-
-**Code Link:**
-Scenario-Based Programs
-[https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase/Day-01](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase/Day-01)
-
-**Git Activity:**
-
-* Code committed and pushed to GitHub
+🔗 *Code Links:*  
+👉 [Scenario Based Problems] (https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase/Day-02)
+👉 [LeetCode String Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/Strings)
