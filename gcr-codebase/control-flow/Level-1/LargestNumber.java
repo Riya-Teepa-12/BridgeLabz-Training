@@ -29,5 +29,6 @@ class LargestNumber{
         System.out.println("Is the first number the largest? " +out1);
         System.out.println("Is the second number the largest? " + out2);
         System.out.println("Is the third number the largest? " +out3);
+       input.close();
      }
 }
