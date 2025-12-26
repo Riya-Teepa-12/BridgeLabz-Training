@@ -28,4 +28,3 @@ class MultiplicationTable{
             System.exit(0);
       }
 }
-
