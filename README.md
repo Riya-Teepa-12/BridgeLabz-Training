@@ -1,2 +1,2 @@
 # BridgeLabz-Training
-Java Full Stack Training Capgemini
+Java Full Stack Training 
