@@ -8,7 +8,7 @@ class EmployeesBonus{
         //declaring double array 
          double salary[] =new double[10];
          double yearsService[] =new double[10];
-         double[] bonus = new double[totalEmployees];
+
          double[] newSalary = new double[totalEmployees];
      
         // Variables to store totals
