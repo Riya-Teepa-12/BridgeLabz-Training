@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class DistanceConverter {
+class DistanceConverter{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
