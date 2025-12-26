@@ -25,7 +25,7 @@ class ReverseNumber{
         for (int i = 0; i < count; i++) {
             reverseDigits[i] = digits[count - 1 - i];
         }
-       for(int i=0;i<=count-1;i++){
+          for(int i=0;i<=count-1;i++){
            System.out.print( reverseDigits[i]);
          }
       input.close();
