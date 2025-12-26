@@ -1,16 +1,32 @@
-# Eclipse specific files 
-.metadata/ 
-.settings/ 
-.classpath 
-.project 
+# =========================
+# Eclipse IDE files
+# =========================
+.metadata/
+.project
+.classpath
+.settings/
+*.launch
 
-# Java build output 
-bin/ 
-target/ 
+# =========================
+# Eclipse Java compiler output
+# =========================
+bin/
+tmp/
 
-# Logs 
-*.log 
+# =========================
+# Eclipse plugin caches (important for your issue)
+# =========================
+.recommenders/
+.localhistory/
+.externalToolBuilders/
 
-# OS generated files 
-.DS_Store 
+# =========================
+# OS files
+# =========================
+.DS_Store
 Thumbs.db
+
+# =========================
+# Logs
+# =========================
+*.log
