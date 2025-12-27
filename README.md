@@ -65,8 +65,7 @@ This repository documents my **day-wise learning progress** during the BridgeLab
 * Logical problem-solving approach
 
 **Code Link:**
- [Programming Elements]
-(https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/programming-elements)
+ [Programming Elements](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/programming-elements)
 
 **Git Activity:**
 
@@ -97,8 +96,7 @@ This repository documents my **day-wise learning progress** during the BridgeLab
 * Practiced problems on control flow
 
 **Code Link:**
-[Control Flow Programs]
-(https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/control-flow)
+[Control Flow Programs](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/control-flow)
 
 **Git Activity:**
 * Code committed and pushed to GitHub
@@ -122,8 +120,7 @@ This repository documents my **day-wise learning progress** during the BridgeLab
 * Using `System.err()` and `System.exit()`
 
 **Code Link:**
-[Arrays Practice]
-(https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/arrays)
+[Arrays Practice](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/arrays)
 
 **Git Activity:**
 
@@ -156,8 +153,7 @@ This repository documents my **day-wise learning progress** during the BridgeLab
 * `String[] args` in the `main` method
 
 **Code Link:**
-[Java Methods]
-(https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/Methods)
+[Java Methods](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/Methods)
 
 **Git Activity:**
 
@@ -194,8 +190,7 @@ This repository documents my **day-wise learning progress** during the BridgeLab
 * Difference between `length` and `length()`
 
 **Code Link:**
-[Strings & Exceptions]
-(https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/Strings)
+[Strings & Exceptions](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/Strings)
 
 **Git Activity:**
 
@@ -227,8 +222,7 @@ This repository documents my **day-wise learning progress** during the BridgeLab
 * Date arithmetic using built-in methods
 
 **Code Link:**
-[Extra Practice]
-(https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/Extra)
+[Extra Practice](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/Extra)
 
 **Git Activity:**
 
@@ -245,14 +239,12 @@ This repository documents my **day-wise learning progress** during the BridgeLab
 - Committed and pushed all solutions.
 
 🔗 *Code Links:*  
-👉 [Scenario Based Problems]
-(https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase/Day-01)
-👉 [LeetCode Array Problems]
-(https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/Array)
+👉 [Scenario Based Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase/Day-01)
+👉 [LeetCode Array Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/Array)
 
 ---
 
-### 🗓 Day 10 – Scenario-Based & LeetCode Array Practice  
+### 🗓 Day 10 – Scenario-Based & LeetCode String Practice  
 *(Date: 26-Dec-2025)*
 
 - Solved *3 scenario-based problems* using Java.
@@ -261,7 +253,5 @@ This repository documents my **day-wise learning progress** during the BridgeLab
 - Committed and pushed all solutions.
 
 🔗 *Code Links:*  
-👉 [Scenario Based Problems] 
-(https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase/Day-02)
-👉 [LeetCode String Problems]
-(https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/Strings)
+👉 [Scenario Based Problems] (https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase/Day-02)
+👉 [LeetCode String Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/Strings)
