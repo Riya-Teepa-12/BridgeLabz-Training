@@ -27,6 +27,6 @@ BridgeLabz-Training/
 - Committed and pushed all work.
 
 🔗 **Code Link:**  
-👉 [Day 1 – Introduction to OOP: Class and Object](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/classandobject)
+👉 [Day 1 – Introduction to OOP: Class and Object](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-code-base/JavaOopsPractice/src/com/classandobjects)
 
 ---
