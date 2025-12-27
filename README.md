@@ -36,7 +36,7 @@ This repository documents my **day-wise learning progress** during the BridgeLab
 * Programming prerequisites required before Core Java concepts
 
 **Code Link:**
- [Program Prerequisites]
+ [Day -2 Program Prerequisites]
  (https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/program-requisite)
 
 
