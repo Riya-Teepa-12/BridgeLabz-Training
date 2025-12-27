@@ -36,7 +36,7 @@ This repository documents my **day-wise learning progress** during the BridgeLab
 * Programming prerequisites required before Core Java concepts
 
 **Code Link:**
- Program Prerequisites
+ [Program Prerequisites]
  (https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/program-requisite)
 
 
@@ -66,7 +66,7 @@ This repository documents my **day-wise learning progress** during the BridgeLab
 * Logical problem-solving approach
 
 **Code Link:**
- Programming Elements
+ [Programming Elements]
 (https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/programming-elements)
 
 **Git Activity:**
@@ -98,7 +98,7 @@ This repository documents my **day-wise learning progress** during the BridgeLab
 * Practiced problems on control flow
 
 **Code Link:**
-Control Flow Programs
+[Control Flow Programs]
 (https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/control-flow)
 
 **Git Activity:**
@@ -123,7 +123,7 @@ Control Flow Programs
 * Using `System.err()` and `System.exit()`
 
 **Code Link:**
-Arrays Practice
+[Arrays Practice]
 (https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/arrays)
 
 **Git Activity:**
@@ -157,7 +157,7 @@ Arrays Practice
 * `String[] args` in the `main` method
 
 **Code Link:**
-Java Methods
+[Java Methods]
 (https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/Methods)
 
 **Git Activity:**
@@ -195,7 +195,7 @@ Java Methods
 * Difference between `length` and `length()`
 
 **Code Link:**
-Strings & Exceptions
+[Strings & Exceptions]
 (https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/Strings)
 
 **Git Activity:**
@@ -228,7 +228,7 @@ Strings & Exceptions
 * Date arithmetic using built-in methods
 
 **Code Link:**
-Extra Practice
+[Extra Practice]
 (https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/Extra)
 
 **Git Activity:**
@@ -246,8 +246,10 @@ Extra Practice
 - Committed and pushed all solutions.
 
 🔗 *Code Links:*  
-👉 [Scenario Based Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase/Day-01)
-👉 [LeetCode Array Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/Array)
+👉 [Scenario Based Problems]
+(https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase/Day-01)
+👉 [LeetCode Array Problems]
+(https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/Array)
 
 ---
 
@@ -260,5 +262,7 @@ Extra Practice
 - Committed and pushed all solutions.
 
 🔗 *Code Links:*  
-👉 [Scenario Based Problems] (https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase/Day-02)
-👉 [LeetCode String Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/Strings)
+👉 [Scenario Based Problems] 
+(https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase/Day-02)
+👉 [LeetCode String Problems]
+(https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/Strings)
