@@ -30,15 +30,32 @@ BridgeLabz-Training/
 👉 [Day 1 – Introduction to OOP: Class and Object](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-code-base/JavaOopsPractice/src/com/classandobjects)
 
 
-🗓 Day 2 – Constructors, Variables & Access Modifiers
+<b>🗓 Day 2 – Constructors, Variables & Access Modifiers</b>
+**(Date: 27-Dec-2025)**
 
-(Date: 27-Dec-2025)
+- Set up and reviewed the `java-oops-practice` branch structure.
+```
 
-Learned about Java Constructors:
+BridgeLabz-Training/
+│── java-oops-practice/
+│   │── gcr-codebase/
+│   │   │── JavaOopsConcepts/
+│   │   │   │── src/
+│   │   │   │   │── com/
+│   │   │   │   │   │── classandobject/
+│   │   │   │   │   │── constructor/
+│   │
+│   │── leet-code-codebase/
+│   │── scenario-based-codebase/
+│   │── .gitignore  
+│── README.md
 
-Default constructors
 
-Parameterized constructors
+<b>Learned about Java Constructors:</b>
+
+**Default constructors**
+
+**Parameterized constructors**
 
 Purpose of constructors in object initialization
 
@@ -46,13 +63,13 @@ Understood the difference between Instance Variables and Class (Static) Variable
 
 Explored Access Modifiers in Java:
 
-public
+<b>public</b>
 
-protected
+<b>protected</b>
 
-default
+<b>default</b>
 
-private
+<b>private</b>
 
 Implemented examples to understand data hiding and access control.
 
