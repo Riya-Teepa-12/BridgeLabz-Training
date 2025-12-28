@@ -4,12 +4,16 @@ A comprehensive Java programming training repository covering Core Java fundamen
 Training Overview
 This repository documents my learning journey at BridgeLabz, spanning from December 15, 2025 to present. The training is organized into structured branches covering different aspects of Java development.
 
-Repository Branches
-🔹 core-java-practice
-Week 1-2: Fundamentals of Java Programming
+<h3>Repository Branches</h3>
 
-🔹 java-oops-practice
-Week 2: Object-Oriented Programming
+<ul>
+  <li><strong>core-java-practice</strong><br>
+      Week 1–2: Fundamentals of Java Programming
+  </li>
+  <li><strong>java-oops-practice</strong><br>
+      Week 2: Object-Oriented Programming
+  </li>
+</ul>
 
 <h3>📂 Project Structure</h3>
 <pre>
