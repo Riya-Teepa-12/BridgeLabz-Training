@@ -32,18 +32,18 @@ class CandyDistribution {
     // Main method to take input and display output
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        Solution obj = new Solution();
+          CandyDistribution obj = new CandyDistribution();
 
         // Input size of candy array
         System.out.print("Enter number of candies: ");
-        int n = sc.nextInt();
+        int n = input.nextInt();
 
         int[] candyType = new int[n];
 
      
         System.out.println("Enter candy types:");
         for (int i = 0; i < n; i++) {
-            candyType[i] = sc.nextInt();
+            candyType[i] = input.nextInt();
         }
 
         // Call method and print result
