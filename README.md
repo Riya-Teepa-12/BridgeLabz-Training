@@ -171,10 +171,12 @@ Levels Covered: Beginner → Intermediate
 Practice Platforms: LeetCode, Scenario-based challenges
 Coding Hours: 70+ hours
 🔗 Quick Links
-📌 Prerequisites Programs
-📌 Control Flows Solutions
-📌 OOPs Implementations
+<p>
+📌 Prerequisites Programs<br>
+📌 Control Flows Solutions<br>
+📌 OOPs Implementations<br>
 📌 LeetCode Solutions
+</p>
 Sample Programs
 View Sample Code Structure
 
