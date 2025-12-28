@@ -258,7 +258,8 @@ This repository documents my **day-wise learning progress** during the BridgeLab
 
 ---
 
-###🗓 Day 11 – LeetCode String & Array Practice
+###🗓<b><h3>Day 11 – LeetCode String & Array Practice</h3></b>
+
 *(Date: 27-Dec-2025)*
 
 Practiced 5 string-based problems on LeetCode.
@@ -266,7 +267,7 @@ Practiced 5 array-based problems on LeetCode.
 Focused on logical thinking and clean code.
 Committed and pushed all solutions.
 
-🔗 *Code Links:*
+🔗 <b>*Code Links:*</b>
 👉 [LeetCode String Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/Strings)
 👉 [LeetCode Array Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/Array)
 
