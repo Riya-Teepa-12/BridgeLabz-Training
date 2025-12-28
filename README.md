@@ -11,7 +11,8 @@ Week 1-2: Fundamentals of Java Programming
 🔹 java-oops-practice
 Week 2: Object-Oriented Programming
 
-📂 Project Structure
+<h3>📂 Project Structure</h3>
+<pre>
 BridgeLabz-Training/
 │
 ├── 📁 core-java-practice/
@@ -36,7 +37,8 @@ BridgeLabz-Training/
                     │   └── leveltwo/      # Advanced OOPs
                     └── 📁 constructor/
                         └── levelone/      # Constructors (Day 6)
-Learning Milestones
+</pre>
+
 
 <h3>Week 1: Core Java Fundamentals</h3>
 
