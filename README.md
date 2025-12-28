@@ -61,5 +61,6 @@ Practiced OOP concepts using real-world class-based programs.
 Committed and pushed all updates to the repository.
 
 🔗 Code Link:
-👉 [Day 2 -Java Constructors, Instance vs Class Variables, Access Modifiers](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-code-base/JavaOopsPractice/src/com/constructor/Level1)
+👉 [Day 2 -Java Constructors, Instance vs Class Variables, Access Modifier](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-code-base/JavaOopsPractice/src/com/constructor/Level1)
+
 ---
