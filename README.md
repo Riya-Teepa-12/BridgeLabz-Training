@@ -85,7 +85,7 @@ Day 2 – Java Constructors, Instance vs Class Variables, Access Modifier
 </p>
 
 <h1>🗓 Day 3 – this, static, final & instanceof</h1>
-<p><strong>Date:</strong> 28-Dec-2025</p>
+<p><strong>Date:</strong> 29-Dec-2025</p>
 
 <p>
 Set up and reviewed the <strong>java-oops-practice</strong> branch structure.
