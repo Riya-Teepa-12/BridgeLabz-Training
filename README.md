@@ -130,7 +130,7 @@ BridgeLabz-Training/
       <td>4</td>
       <td>26-Dec</td>
       <td>Scenario-Based</td>
-      <td>5 business logic applications</td>
+      <td>10 business logic applications</td>
     </tr>
     <tr>
       <td>5</td>
@@ -143,6 +143,12 @@ BridgeLabz-Training/
       <td>27-Dec</td>
       <td>Constructors</td>
       <td>13 programs with constructor types</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>29-Dec</td>
+      <td>Static, this and Final Keywords </td>
+      <td>7 programs using static,this and final</td>
     </tr>
   </tbody>
 </table>
