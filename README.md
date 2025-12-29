@@ -253,7 +253,7 @@ This repository documents my **day-wise learning progress** during the BridgeLab
 - Committed and pushed all solutions.
 
 🔗 *Code Links:*  
-👉 [Scenario Based Problems] (https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase/Day-02)
+👉 [Scenario Based Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase/Day-02)
 👉 [LeetCode String Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/Strings)
 
 ---
