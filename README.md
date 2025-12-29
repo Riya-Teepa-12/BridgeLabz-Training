@@ -84,4 +84,63 @@ Day 2 – Java Constructors, Instance vs Class Variables, Access Modifier
 </a>
 </p>
 
+<h1>🗓 Day 3 – this, static, final & instanceof</h1>
+<p><strong>Date:</strong> 28-Dec-2025</p>
+
+<p>
+Set up and reviewed the <strong>java-oops-practice</strong> branch structure.
+</p>
+
+<pre>
+BridgeLabz-Training/
+│── java-oops-practice/
+│   │── gcr-codebase/
+│   │   │── JavaOopsConcepts/
+│   │   │   │── src/
+│   │   │   │   │── com/
+│   │   │   │   │   │── classandobject/
+│   │   │   │   │   │── constructor/
+│   │   │   │   │   │── staticandFinal/
+│   │
+│   │── leet-code-codebase/
+│   │── scenario-based-codebase/
+│   │── .gitignore  
+│── README.md
+
+</pre>
+
+<h2>Learned about this keyword:</h2>
+<ul>
+  <li>Used to refer to the current object</li>
+  <li>Helps differentiate instance variables from local variables</li>
+  <li>Used inside constructors and methods</li>
+</ul>
+
+<h2>Learned about static keyword:</h2>
+<ul>
+  <li>Belongs to the class, not objects</li>
+  <li>Static variables are shared among all objects</li>
+  <li>Static methods can be called using class name</li>
+</ul>
+
+<h2>Learned about final keyword:</h2>
+<ul>
+  <li>final variable → value cannot be changed</li>
+  <li>final method → cannot be overridden</li>
+  <li>final class → cannot be inherited</li>
+  <li>Used to apply restrictions in Java</li>
+</ul>
+
+<h2>Learned about instanceof operator:</h2>
+<ul>
+  <li>Used to check the type of object at runtime</li>
+  <li>Returns true or false</li>
+  <li>Helps avoid class cast errors</li>
+</ul>
+<p>
+🔗 <strong>Code Link:</strong><br>
+👉 <a href="https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-code-base/JavaOopsPractice/src/com/StaticandFinal/Level1">
+Day 2 – Static , this , Final Keywords
+</a>
+</p>
 
