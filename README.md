@@ -267,4 +267,17 @@ Committed and pushed all solutions.
 👉 [LeetCode String Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/Strings)
 👉 [LeetCode Array Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/Array)
 
+<b><h3>🗓Day 12– LeetCode String & Array Practice</h3></b>
+*(Date: 29-Dec-2025)*
+
+Practiced 3 string-based problems on LeetCode.<br>
+Practiced 2 array-based problems on LeetCode.<br>
+Focused on logical thinking and clean code.<br>
+Committed and pushed all solutions.
+
+🔗 <b>*Code Links:*</b>
+👉 [LeetCode String Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/Strings)
+👉 [LeetCode Array Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/Array)
+
+
 
