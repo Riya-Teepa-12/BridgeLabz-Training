@@ -141,9 +141,6 @@ This repository documents my **day-wise learning progress** during the BridgeLab
 * Static methods
 * Java standard library methods
 * `java.lang.Math` class
-
-# Week 2: **Additional Concepts Discussed:**
-
 * Types of data types
 * Why Java is considered mostly OOP
 * Primitive vs wrapper classes
@@ -160,7 +157,7 @@ This repository documents my **day-wise learning progress** during the BridgeLab
 * Code committed and pushed to GitHub
 
 ---
-
+# Week 2: **Additional Concepts Discussed:**
 
 ###  Day 7 – Strings & Exception Handling
 
