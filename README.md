@@ -142,7 +142,7 @@ This repository documents my **day-wise learning progress** during the BridgeLab
 * Java standard library methods
 * `java.lang.Math` class
 
-**Additional Concepts Discussed:**
+# Week 2: **Additional Concepts Discussed:**
 
 * Types of data types
 * Why Java is considered mostly OOP
