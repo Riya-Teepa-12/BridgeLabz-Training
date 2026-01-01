@@ -144,3 +144,120 @@ Day 2 – Static , this , Final Keywords
 </a>
 </p>
 
+<h2>Day 4 – Object-Oriented Design Principles </h2>
+
+<p><strong>Date:</strong> 30-Dec-2025</p>
+
+<p>
+Reviewed and understood the importance of <strong>design-level thinking</strong> in object-oriented
+systems using <strong>UML diagrams</strong>.
+</p>
+
+<hr>
+
+<h3>Project Structure Reviewed</h3>
+
+<pre>
+BridgeLabz-Training/
+│── java-oops-practice/
+│   │── gcr-codebase/
+│   │   │── JavaOopsConcepts/
+│   │   │   │── src/
+│   │   │   │   │── com/
+│   │   │   │   │   │── classandobject/
+│   │   │   │   │   │── constructor/
+│   │   │   │   │   │── staticandFinal/
+│   │   │   │   │   │── objectandmodelling/
+│   │   │
+│   │── leet-code-codebase/
+│   │── scenario-based-codebase/
+│   │── .gitignore
+│── README.md
+</pre>
+
+<hr>
+
+<h3>Learned about Object-Oriented Design Principles</h3>
+
+<p>
+Object-Oriented Design focuses on <strong>planning the structure and behavior of a system
+before coding</strong>, making applications <strong>scalable, maintainable, and easy to understand</strong>.
+</p>
+
+<hr>
+
+<h3>Class Diagram</h3>
+
+<ul>
+    <li>Represents the <strong>static structure</strong> of a system</li>
+    <li>Shows <strong>classes, attributes, methods, and relationships</strong></li>
+    <li>Helps understand inheritance, association, aggregation, and composition</li>
+    <li>Used during the <strong>design phase</strong></li>
+</ul>
+
+<p><strong>Key Components:</strong></p>
+<ul>
+    <li>Class name</li>
+    <li>Attributes (fields)</li>
+    <li>Methods (functions)</li>
+    <li>Relationships (extends, implements, uses)</li>
+</ul>
+
+<hr>
+
+<h3>Object Diagram</h3>
+
+<ul>
+    <li>Represents the <strong>runtime view</strong> of the system</li>
+    <li>Shows <strong>actual objects and their values</strong></li>
+    <li>Snapshot of the system at a specific moment</li>
+    <li>Useful for understanding <strong>object interactions</strong></li>
+</ul>
+
+<p><strong>Key Features:</strong></p>
+<ul>
+    <li>Object names</li>
+    <li>Attribute values</li>
+    <li>Links between objects</li>
+</ul>
+
+<hr>
+
+<h3>Sequence Diagram</h3>
+
+<ul>
+    <li>Represents <strong>interaction between objects over time</strong></li>
+    <li>Shows <strong>method calls in chronological order</strong></li>
+    <li>Helps visualize the <strong>flow of execution</strong></li>
+    <li>Commonly used to design <strong>use cases</strong></li>
+</ul>
+
+<p><strong>Key Elements:</strong></p>
+<ul>
+    <li>Actors / Objects</li>
+    <li>Lifelines</li>
+    <li>Messages</li>
+    <li>Activation bars</li>
+</ul>
+
+<hr>
+
+<h3>Why UML Diagrams Are Important</h3>
+
+<ul>
+    <li>Improves clarity before implementation</li>
+    <li>Reduces design errors</li>
+    <li>Enhances communication between developers</li>
+    <li>Makes complex systems easier to understand</li>
+</ul>
+
+<hr>
+
+<p>
+<strong>https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-code-base/JavaOopsPractice/src/com/inheritance</strong><br>
+👉 Day 4 – Object Oriented Design Principles (Class, Object &amp; Sequence Diagrams)
+</p>
+
+</body>
+</html>
+
