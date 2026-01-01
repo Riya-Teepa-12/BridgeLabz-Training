@@ -157,7 +157,7 @@ This repository documents my **day-wise learning progress** during the BridgeLab
 * Code committed and pushed to GitHub
 
 ---
-# Week 2: **Additional Concepts Discussed:**
+ **Additional Concepts Discussed:**
 
 ###  Day 7 – Strings & Exception Handling
 
