@@ -379,7 +379,7 @@ acquires the properties and behaviors of another class (superclass) using the
 
 <p>
 <strong>🔗 Code Link:</strong><br>
-  <a href ="https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-code-base/JavaOopsPractice/src/com/inheritance"
+  <a href ="https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-code-base/JavaOopsPractice/src/com/inheritance">
 👉 Day 5 – Inheritance (Single, Multilevel &amp; Hierarchical)
     </a>
 </p>
