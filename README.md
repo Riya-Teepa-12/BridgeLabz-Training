@@ -144,7 +144,7 @@ Day 2 – Static , this , Final Keywords
 </a>
 </p>
 
-<h2>Day 4 – Object-Oriented Design Principles </h2>
+<h2>Day 3 – Object-Oriented Design Principles </h2>
 
 <p><strong>Date:</strong> 30-Dec-2025</p>
 
@@ -250,14 +250,12 @@ before coding</strong>, making applications <strong>scalable, maintainable, and 
     <li>Enhances communication between developers</li>
     <li>Makes complex systems easier to understand</li>
 </ul>
-
-<hr>
-
 <p>
-<strong>https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-code-base/JavaOopsPractice/src/com/inheritance</strong><br>
-👉 Day 4 – Object Oriented Design Principles (Class, Object &amp; Sequence Diagrams)
+🔗 <strong>Code Link:</strong><br>
+ <a href="https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-code-base/JavaOopsPractice/src/com/inheritance">
+👉 Day 3 – Object Oriented Design Principles (Class, Object &amp; Sequence Diagrams)
+</a>
 </p>
 
-</body>
-</html>
+
 
