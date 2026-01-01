@@ -140,11 +140,11 @@ BridgeLabz-Training/
 <p>
 🔗 <strong>Code Link:</strong><br>
 👉 <a href="https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-code-base/JavaOopsPractice/src/com/StaticandFinal/Level1">
-Day 2 – Static , this , Final Keywords
+Day 3 – Static , this , Final Keywords
 </a>
 </p>
 
-<h2>Day 3 – Object-Oriented Design Principles </h2>
+<h2>Day 4 – Object-Oriented Design Principles </h2>
 
 <p><strong>Date:</strong> 30-Dec-2025</p>
 
@@ -252,10 +252,139 @@ before coding</strong>, making applications <strong>scalable, maintainable, and 
 </ul>
 <p>
 🔗 <strong>Code Link:</strong><br>
- <a href="https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-code-base/JavaOopsPractice/src/com/inheritance">
-👉 Day 3 – Object Oriented Design Principles (Class, Object &amp; Sequence Diagrams)
+ <a href="https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-code-base/JavaOopsPractice/src/com/objectmodelling">
+👉 Day 4 – Object Oriented Design Principles (Class, Object &amp; Sequence Diagrams)
 </a>
 </p>
+
+<h2>Day 5 – Inheritance in Java</h2>
+
+<p><strong>Date:</strong> 31-Dec-2025</p>
+
+<p>
+Learned and practiced the concept of <strong>Inheritance</strong> in Java to understand
+how classes can reuse and extend existing functionality, improving code reusability
+and maintainability.
+</p>
+
+<hr>
+
+<h3>Project Structure Reviewed</h3>
+
+<pre>
+BridgeLabz-Training/
+│── java-oops-practice/
+│   │── gcr-codebase/
+│   │   │── JavaOopsConcepts/
+│   │   │   │── src/
+│   │   │   │   │── com/
+│   │   │   │   │   │── classandobject/
+│   │   │   │   │   │── constructor/
+│   │   │   │   │   │── staticandFinal/
+│   │   │   │   │   │── objectandmodelling/
+│   │   │   │   │   │── inheritance/
+│   │
+│   │── leet-code-codebase/
+│   │── scenario-based-codebase/
+│   │── .gitignore
+│── README.md
+</pre>
+
+<hr>
+
+<h3>Learned about Inheritance</h3>
+
+<p>
+Inheritance is an Object-Oriented Programming concept where one class (subclass)
+acquires the properties and behaviors of another class (superclass) using the
+<strong>extends</strong> keyword.
+</p>
+
+<hr>
+
+<h3>Single Level Inheritance</h3>
+<ul>
+    <li>One subclass inherits from one superclass</li>
+    <li>Promotes basic code reusability</li>
+    <li>Easy to understand and implement</li>
+</ul>
+
+<hr>
+
+<h3>Multilevel Inheritance</h3>
+<ul>
+    <li>A class inherits from another derived class</li>
+    <li>Forms a chain of inheritance</li>
+    <li>Enhances reusability across multiple levels</li>
+</ul>
+
+<hr>
+
+<h3>Hierarchical Inheritance</h3>
+<ul>
+    <li>Multiple subclasses inherit from a single superclass</li>
+    <li>Allows sharing common behavior across different classes</li>
+    <li>Improves logical class organization</li>
+</ul>
+
+<hr>
+
+<h3>Key Features of Inheritance</h3>
+<ul>
+    <li>Code reusability</li>
+    <li>Method overriding</li>
+    <li>Improved maintainability</li>
+    <li>Supports runtime polymorphism</li>
+</ul>
+
+<hr>
+
+<h3>Method Overriding</h3>
+<ul>
+    <li>Subclass provides its own implementation of a superclass method</li>
+    <li>Method signature must be the same</li>
+    <li>Achieves runtime polymorphism</li>
+    <li>Uses <strong>@Override</strong> annotation</li>
+</ul>
+
+<hr>
+
+<h3>Constructor Inheritance in Java</h3>
+<ul>
+    <li>Constructors are not inherited</li>
+    <li>Superclass constructor is called using <strong>super()</strong></li>
+    <li>Ensures proper initialization of inherited fields</li>
+</ul>
+
+<hr>
+
+<h3>Polymorphism and Inheritance</h3>
+<ul>
+    <li>Achieved when a superclass reference refers to a subclass object</li>
+    <li>Method calls are resolved at runtime</li>
+    <li>Enhances flexibility and scalability</li>
+</ul>
+
+<hr>
+
+<h3>Access Modifiers and Inheritance</h3>
+<ul>
+    <li><strong>public</strong> – accessible everywhere</li>
+    <li><strong>protected</strong> – accessible within package and subclasses</li>
+    <li><strong>default</strong> – accessible within the same package</li>
+    <li><strong>private</strong> – not accessible in subclasses</li>
+</ul>
+
+<hr>
+
+<p>
+<strong>🔗 Code Link:</strong><br>
+  <a href ="https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-code-base/JavaOopsPractice/src/com/inheritance"
+👉 Day 5 – Inheritance (Single, Multilevel &amp; Hierarchical)
+    </a>
+</p>
+
+
 
 
 
