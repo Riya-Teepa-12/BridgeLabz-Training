@@ -3,18 +3,22 @@ package com.objectmodelling.Level1;
 import java.util.*;
 
 public class CourseDemo {
-        
-	 private int courseId;
+          
+            //attributes
+	    private int courseId;
 	    private String courseName;
 	    private Professor professor;
 	    private List<StudentDemo> students;
+             
 
+            //costructor
 	    public CourseDemo(int courseId, String courseName) {
 	        this.courseId = courseId;
 	        this.courseName = courseName;
 	        this.students = new ArrayList<>();
 	    }
-
+            
+            //methods
 	    public void assignProfessor(Professor professor) {
 	        this.professor = professor;
 	        System.out.println(professor.getName() + " assigned to " + courseName);
@@ -24,7 +28,9 @@ public class CourseDemo {
 	        students.add(student);
 	        System.out.println(student.getName() + " enrolled in " + courseName);
 	    }
+             
 
+            //show details
 	    public void showCourseDetails() {
 	        System.out.println("\nCourse: " + courseName);
 	        if (professor != null) {
