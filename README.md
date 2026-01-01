@@ -28,8 +28,8 @@ BridgeLabz-Training/
 │   │   ├── 📁 methods/                # Method practices (Day 6)
 │   │   ├── 📁 strings/                # String manipulation (Week 2, Day 1)
 │   │   └── 📁 Extras/                 # Built-in methods & recursion
-│   ├── 📁 leet-code-codebase/         # LeetCode solutions
-│   └── 📁 scenario-based/             # Real-world problems
+│   ├── 📁 leet-code-codebase/          # LeetCode solutions
+│   └── 📁 scenario-based/              # Real-world problems
 │
 └── 📁 java-oops-practice/
     └── 📁 gcr-codebase/
@@ -37,10 +37,23 @@ BridgeLabz-Training/
             └── 📁 src/
                 └── 📁 com/bridgelabz/
                     ├── 📁 oops/
-                    │   ├── levelone/      # Basic OOPs (Day 5)
-                    │   └── leveltwo/      # Advanced OOPs
-                    └── 📁 constructor/
-                        └── levelone/      # Constructors (Day 6)
+                    │   ├── 📁 levelone/      # Basic OOPs (Day 5)
+                    │   └── 📁 leveltwo/      # Advanced OOPs
+                    │
+                    ├── 📁 constructor/
+                    │   └── 📁 levelone/      # Constructors (Day 6)
+                    │
+                    ├── 📁 staticandfinal/
+                    │   └── 📁 levelone/      # static, final, static blocks
+                    │
+                    ├── 📁 objectmodelling/
+                    │   ├── 📁 levelone/      # Simple real-world models
+                    │   └── 📁 leveltwo/      # Complex system design
+                    │
+                    └── 📁 inheritance/
+                                               # Single, Multilevel, Hierarchical
+                        
+
 </pre>
 
 
@@ -124,13 +137,13 @@ BridgeLabz-Training/
       <td>3</td>
       <td>24-Dec</td>
       <td>LeetCode &amp; Scenarios</td>
-      <td>3 LeetCode + 2 real-world problems</td>
+      <td>25 LeetCode + 2 real-world problems</td>
     </tr>
     <tr>
       <td>4</td>
       <td>26-Dec</td>
       <td>Scenario-Based</td>
-      <td>10 business logic applications</td>
+      <td>15 business logic applications</td>
     </tr>
     <tr>
       <td>5</td>
@@ -149,6 +162,18 @@ BridgeLabz-Training/
       <td>29-Dec</td>
       <td>Static, this and Final Keywords </td>
       <td>7 programs using static,this and final</td>
+    </tr>
+     <tr>
+      <td>8</td>
+      <td>30-Dec</td>
+      <td>Object modelling</td>
+      <td> 2 levels -programs using object modelling</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>31-Dec</td>
+      <td>inheritance</td>
+      <td>11 program using inheritance </td>
     </tr>
   </tbody>
 </table>
