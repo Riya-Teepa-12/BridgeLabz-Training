@@ -37,11 +37,11 @@ BridgeLabz-Training/
             └── 📁 src/
                 └── 📁 com/bridgelabz/
                     ├── 📁 oops/
-                    │   ├── 📁 levelone/      # Basic OOPs (Day 5)
+                    │   ├── 📁 levelone/      # Basic OOPs 
                     │   └── 📁 leveltwo/      # Advanced OOPs
                     │
                     ├── 📁 constructor/
-                    │   └── 📁 levelone/      # Constructors (Day 6)
+                    │   └── 📁 levelone/      # Constructors 
                     │
                     ├── 📁 staticandfinal/
                     │   └── 📁 levelone/      # static, final, static blocks
@@ -50,9 +50,12 @@ BridgeLabz-Training/
                     │   ├── 📁 levelone/      # Simple real-world models
                     │   └── 📁 leveltwo/      # Complex system design
                     │
-                    └── 📁 inheritance/
-                                               # Single, Multilevel, Hierarchical
-                        
+                    └── 📁 inheritance/        # Single, Multilevel, Hierarchical, Hybrid
+                    |
+                    |
+                    | 
+                    | ── 📁 encapsulation/     # abstract class, getter setter , abstraction , polymorphism
+                       
 
 </pre>
 
@@ -137,7 +140,7 @@ BridgeLabz-Training/
       <td>3</td>
       <td>24-Dec</td>
       <td>LeetCode &amp; Scenarios</td>
-      <td>25 LeetCode + 2 real-world problems</td>
+      <td>40 LeetCode on array strings and math</td>
     </tr>
     <tr>
       <td>4</td>
@@ -174,6 +177,12 @@ BridgeLabz-Training/
       <td>31-Dec</td>
       <td>inheritance</td>
       <td>11 program using inheritance </td>
+    </tr>
+     <tr>
+      <td>10</td>
+      <td>1-Jan</td>
+      <td>encapsulation, abstraction, inheritance, and polymorphism</td>
+      <td>8 program using inheritance </td>
     </tr>
   </tbody>
 </table>
