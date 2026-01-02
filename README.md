@@ -384,6 +384,60 @@ acquires the properties and behaviors of another class (superclass) using the
     </a>
 </p>
 
+<h2>🗓 Day 6 – Encapsulation, Interface, Abstract Classes & Polymorphism</h2>
+<p><strong>Date:</strong> 01-Jan-2026</p>
+
+<h3>📂 Project Update</h3>
+<p>
+Extended the <strong>java-oops-practice</strong> branch by adding structured packages
+for advanced Object-Oriented Programming concepts.
+</p>
+
+<pre>
+  BridgeLabz-Training/
+│── java-oops-practice/
+│   │── gcr-codebase/
+│   │   │── JavaOopsConcepts/
+│   │   │   │── src/
+│   │   │   │   │── com/
+│   │   │   │   │   │── classandobject/
+│   │   │   │   │   │── constructor/
+│   │   │   │   │   │── staticandFinal/
+│   │   │   │   │   │── objectandmodelling/
+│   │   │   │   │   │── inheritance/
+                    |── encapsulation/
+│   │
+│   │── leet-code-codebase/
+│   │── scenario-based-codebase/
+│   │── .gitignore
+│── README.md
+
+</pre>
+
+<h3>📘 Learning Outcomes</h3>
+<ul>
+    <li><strong>Encapsulation:</strong> Implemented data hiding using private variables and public getter/setter methods.</li>
+    <li><strong>Interface:</strong> Defined contracts to achieve abstraction and multiple inheritance.</li>
+    <li><strong>Abstract Classes:</strong> Used partial abstraction with abstract and concrete methods.</li>
+    <li><strong>Polymorphism:</strong> Achieved dynamic behavior through method overloading and overriding.</li>
+</ul>
+
+<h3>✅ Progress</h3>
+<ul>
+    <li>Created dedicated packages for each OOP concept</li>
+    <li>Implemented example programs demonstrating real-world scenarios</li>
+    <li>Tested runtime polymorphism using parent class references</li>
+    <li>Committed and pushed all Day 6 work</li>
+</ul>
+
+<p>
+🔗 <strong>Code Link:</strong><br>
+  <a href ="https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-code-base/JavaOopsPractice/src/com/encapsulation">
+👉 <em>Day 6 – Encapsulation, Interface, Abstract Classes & Polymorphism</em>
+  </a>
+</p>
+
+
 
 
 
