@@ -32,31 +32,39 @@ BridgeLabz-Training/
 │   └── 📁 scenario-based/              # Real-world problems
 │
 └── 📁 java-oops-practice/
-    └── 📁 gcr-codebase/
-        └── 📁 JavaOopsConcepts/
-            └── 📁 src/
-                └── 📁 com/bridgelabz/
-                    ├── 📁 oops/
-                    │   ├── 📁 levelone/      # Basic OOPs 
-                    │   └── 📁 leveltwo/      # Advanced OOPs
-                    │
-                    ├── 📁 constructor/
-                    │   └── 📁 levelone/      # Constructors 
-                    │
-                    ├── 📁 staticandfinal/
-                    │   └── 📁 levelone/      # static, final, static blocks
-                    │
-                    ├── 📁 objectmodelling/
-                    │   ├── 📁 levelone/      # Simple real-world models
-                    │   └── 📁 leveltwo/      # Complex system design
-                    │
-                    └── 📁 inheritance/        # Single, Multilevel, Hierarchical, Hybrid
-                    |
-                    |
-                    | 
-                    | ── 📁 encapsulation/     # abstract class, getter setter , abstraction , polymorphism
-                       
-
+|    └── 📁 gcr-codebase/
+|    |    └── 📁 JavaOopsConcepts/
+|    |        └── 📁 src/
+|    |            └── 📁 com/bridgelabz/
+|    |                ├── 📁 oops/
+|    |                │   ├── 📁 levelone/      # Basic OOPs 
+|    |                │   └── 📁 leveltwo/      # Advanced OOPs
+|    |               │
+|    |               ├── 📁 constructor/
+|    |               │   └── 📁 levelone/      # Constructors 
+|    |                │
+|    |                ├── 📁 staticandfinal/
+|    |                │   └── 📁 levelone/      # static, final, static blocks
+|    |               │
+|    |                ├── 📁 objectmodelling/
+|    |                │   ├── 📁 levelone/      # Simple real-world models
+|    |                │   └── 📁 leveltwo/      # Complex system design
+|    |                │
+|    |                └── 📁 inheritance/        # Single, Multilevel, Hierarchical, Hybrid
+|    |                |
+|    |                | ── 📁 encapsulation/     # abstract class, getter setter , abstraction , polymorphism
+|    |                
+|    |───────────   📁 leet-code-codebase/ 
+|    | ───────────  📁 scenario-based/ 
+|
+|──📁 dsa-practice/
+|
+|
+|
+|
+|
+|
+|  
 </pre>
 
 
@@ -182,7 +190,13 @@ BridgeLabz-Training/
       <td>10</td>
       <td>1-Jan</td>
       <td>encapsulation, abstraction, inheritance, and polymorphism</td>
-      <td>8 program using inheritance </td>
+      <td>8 program using encapsulation, abstraction , polymorphism and inheritance </td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>2-Jan</td>
+      <td>Oops Scenario-based </td>
+      <td>5 program using inheritance </td>
     </tr>
   </tbody>
 </table>
