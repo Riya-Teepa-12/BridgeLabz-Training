@@ -16,8 +16,5 @@ public class EmployeeNode {
 		this.salary = salary;
 		this.next = next;
 	   }
-       
-	  
-       
-       
-}
+	   
+ }
