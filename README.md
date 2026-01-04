@@ -1,224 +1,120 @@
-BridgeLabz Training Journey
-A comprehensive Java programming training repository covering Core Java fundamentals to Object-Oriented Programming concepts.
-
-Training Overview
-This repository documents my learning journey at BridgeLabz, spanning from December 15, 2025 to present. The training is organized into structured branches covering different aspects of Java development.
-
-<h3>Repository Branches</h3>
-
-<ul>
-  <li><strong>core-java-practice</strong><br>
-      Week 1–2: Fundamentals of Java Programming
-  </li>
-  <li><strong>java-oops-practice</strong><br>
-      Week 2: Object-Oriented Programming
-  </li>
-</ul>
-
-<h3>📂 Project Structure</h3>
-<pre>
-BridgeLabz-Training/
-│
-├── 📁 core-java-practice/
-│   ├── 📁 gcr-codebase/
-│   │   ├── 📁 prerequisites/          # Basic Java programs (Day 2)
-│   │   ├── 📁 programming-elements/   # Level 1 & 2 exercises (Day 3)
-│   │   ├── 📁 control-flows/          # If-else, loops, switch (Day 4)
-│   │   ├── 📁 arrays/                 # Array operations (Day 5)
-│   │   ├── 📁 methods/                # Method practices (Day 6)
-│   │   ├── 📁 strings/                # String manipulation (Week 2, Day 1)
-│   │   └── 📁 Extras/                 # Built-in methods & recursion
-│   ├── 📁 leet-code-codebase/          # LeetCode solutions
-│   └── 📁 scenario-based/              # Real-world problems
-│
-└── 📁 java-oops-practice/
-    └── 📁 gcr-codebase/
-        └── 📁 JavaOopsConcepts/
-            └── 📁 src/
-                └── 📁 com/bridgelabz/
-                    ├── 📁 oops/
-                    │   ├── 📁 levelone/      # Basic OOPs (Day 5)
-                    │   └── 📁 leveltwo/      # Advanced OOPs
-                    │
-                    ├── 📁 constructor/
-                    │   └── 📁 levelone/      # Constructors (Day 6)
-                    │
-                    ├── 📁 staticandfinal/
-                    │   └── 📁 levelone/      # static, final, static blocks
-                    │
-                    ├── 📁 objectmodelling/
-                    │   ├── 📁 levelone/      # Simple real-world models
-                    │   └── 📁 leveltwo/      # Complex system design
-                    │
-                    └── 📁 inheritance/
-                                               # Single, Multilevel, Hierarchical
-                        
-
-</pre>
+    <h1>BridgeLabz Training Journey<h1>
 
 
-<h3>Week 1: Core Java Fundamentals</h3>
+    <h1>📅 Week 3 – Day 1</h1>
+    <h2>📌 Topic: Linked Lists (Singly, Doubly & Circular)</h2>
 
-<table border="1" cellpadding="8" cellspacing="0">
-  <thead>
-    <tr>
-      <th>Day</th>
-      <th>Date</th>
-      <th>Topic</th>
-      <th>Programs Completed</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>1</td>
-      <td>15-Dec</td>
-      <td>Git & GitHub Setup</td>
-      <td>Repository initialization, basic Git commands</td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td>16-Dec</td>
-      <td>Java Basics</td>
-      <td>10 prerequisite programs</td>
-    </tr>
-    <tr>
-      <td>3</td>
-      <td>17-Dec</td>
-      <td>Programming Elements</td>
-      <td>31 programs (Level 1 &amp; 2)</td>
-    </tr>
-    <tr>
-      <td>4</td>
-      <td>18-Dec</td>
-      <td>Control Flows</td>
-      <td>43 programs (3 levels)</td>
-    </tr>
-    <tr>
-      <td>5</td>
-      <td>19-Dec</td>
-      <td>Arrays</td>
-      <td>18 programs (2 levels)</td>
-    </tr>
-    <tr>
-      <td>6</td>
-      <td>20-Dec</td>
-      <td>Methods</td>
-      <td>35 programs (3 levels)</td>
-    </tr>
-  </tbody>
-</table>
+    <p>
+        This day focuses on understanding and implementing different types of
+        <strong>Linked Lists</strong>, a core Data Structures concept.
+        The objective is to strengthen pointer manipulation, traversal logic,
+        and CRUD operations using real-world problem statements.
+    </p>
 
+    <hr>
 
-<h3>Week 2: Advanced Concepts</h3>
+    <h2>🔗 Linked List Types Covered</h2>
 
-<table border="1" cellpadding="8" cellspacing="0">
-  <thead>
-    <tr>
-      <th>Day</th>
-      <th>Date</th>
-      <th>Topic</th>
-      <th>Programs Completed</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>1</td>
-      <td>22-Dec</td>
-      <td>Strings</td>
-      <td>30 programs (3 levels)</td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td>23-Dec</td>
-      <td>Built-In Methods</td>
-      <td>Recursion, date/time operations</td>
-    </tr>
-    <tr>
-      <td>3</td>
-      <td>24-Dec</td>
-      <td>LeetCode &amp; Scenarios</td>
-      <td>25 LeetCode + 2 real-world problems</td>
-    </tr>
-    <tr>
-      <td>4</td>
-      <td>26-Dec</td>
-      <td>Scenario-Based</td>
-      <td>15 business logic applications</td>
-    </tr>
-    <tr>
-      <td>5</td>
-      <td>26-Dec</td>
-      <td>OOPs Concepts</td>
-      <td>10 programs (2 levels)</td>
-    </tr>
-    <tr>
-      <td>6</td>
-      <td>27-Dec</td>
-      <td>Constructors</td>
-      <td>13 programs with constructor types</td>
-    </tr>
-    <tr>
-      <td>7</td>
-      <td>29-Dec</td>
-      <td>Static, this and Final Keywords </td>
-      <td>7 programs using static,this and final</td>
-    </tr>
-     <tr>
-      <td>8</td>
-      <td>30-Dec</td>
-      <td>Object modelling</td>
-      <td> 2 levels -programs using object modelling</td>
-    </tr>
-    <tr>
-      <td>9</td>
-      <td>31-Dec</td>
-      <td>inheritance</td>
-      <td>11 program using inheritance </td>
-    </tr>
-  </tbody>
-</table>
+    <h3>1️⃣ Singly Linked List</h3>
+    <p>Each node contains:</p>
+    <ul>
+        <li>Data</li>
+        <li>Reference to the next node</li>
+    </ul>
 
+    <p><strong>Operations Implemented:</strong></p>
+    <ul>
+        <li>Add node at:
+            <ul>
+                <li>Beginning</li>
+                <li>End</li>
+                <li>Specific position</li>
+            </ul>
+        </li>
+        <li>Delete node by ID</li>
+        <li>Search node by ID / Name</li>
+        <li>Update node data</li>
+        <li>Display all nodes</li>
+    </ul>
 
-<b>Key Concepts Covered</b>
+    <p><strong>Use Case Examples:</strong></p>
+    <ul>
+        <li>Student Record Management</li>
+        <li>Inventory Management System</li>
+        <li>Employee Management System</li>
+    </ul>
 
-Core Java (core-java-practice)
-Fundamentals: Variables, data types, operators
-Control Structures: If-else, loops, switch-case
-Arrays: Single & multi-dimensional arrays
-Methods: Parameters, return types, overloading
-Strings: Manipulation, comparisons, exceptions
-Problem Solving: LeetCode challenges, real-world scenarios
-Object-Oriented Programming (java-oops-practice)
-Classes & Objects: Creating and instantiating objects
-Encapsulation: Data hiding and access modifiers
-Constructors: Default, parameterized, overloading
-Abstraction: Interface-based design patterns
+    <hr>
 
-<b>🛠️ Technologies Used</b>
-Language: Java (JDK 8+)
-Version Control: Git & GitHub
-IDE: IntelliJ IDEA / Eclipse / VS Code
-Build Tool: Maven (optional)
-Training Statistics
-Total Days: 11 days
-Total Programs: 150+ Java programs
-Levels Covered: Beginner → Intermediate
-Practice Platforms: LeetCode, Scenario-based challenges
-Coding Hours: 70+ hours
-🔗 Quick Links
-<p>
-📌 Prerequisites Programs<br>
-📌 Control Flows Solutions<br>
-📌 OOPs Implementations<br>
-📌 LeetCode Solutions
-</p>
-Sample Programs
-View Sample Code Structure
+    <h3>2️⃣ Doubly Linked List</h3>
+    <p>Each node contains:</p>
+    <ul>
+        <li>Data</li>
+        <li>Reference to previous node</li>
+        <li>Reference to next node</li>
+    </ul>
 
-<b>🎓 Learnings & Best Practices</b>
-Code Organization: Following industrial standards
-Naming Conventions: Camel case and meaningful names
-Version Control: Regular commits with descriptive messages
-Problem-Solving: Breaking complex problems into smaller tasks
-Documentation: Clear comments and README files
+    <p><strong>Operations Implemented:</strong></p>
+    <ul>
+        <li>Add node at beginning, end, or specific position</li>
+        <li>Remove node by unique ID</li>
+        <li>Search by title / name</li>
+        <li>Update availability / status</li>
+        <li>Display list:
+            <ul>
+                <li>Forward traversal</li>
+                <li>Backward traversal</li>
+            </ul>
+        </li>
+    </ul>
 
+    <p><strong>Use Case Example:</strong></p>
+    <ul>
+        <li>Library Management System</li>
+    </ul>
+
+    <hr>
+
+    <h3>3️⃣ Circular Linked List</h3>
+    <p>
+        The last node points back to the first node instead of <code>null</code>.
+    </p>
+
+    <p><strong>Operations Implemented:</strong></p>
+    <ul>
+        <li>Add node at the end</li>
+        <li>Remove node by unique ID</li>
+        <li>Search by customer name / category</li>
+        <li>Display all nodes in circular manner</li>
+    </ul>
+
+    <p><strong>Use Case Example:</strong></p>
+    <ul>
+        <li>Online Ticket Reservation System</li>
+    </ul>
+
+    <hr>
+
+    <h2>🎯 Learning Outcomes</h2>
+    <ul>
+        <li>Clear understanding of Singly, Doubly, and Circular Linked Lists</li>
+        <li>Efficient traversal and deletion logic</li>
+        <li>Handling edge cases (empty list, single node, head/tail deletion)</li>
+        <li>Applying linked lists to real-world scenarios</li>
+        <li>Improved problem-solving and pointer manipulation skills</li>
+    </ul>
+
+    <hr>
+
+    <h2>🛠️ Tech Stack</h2>
+    <ul>
+        <li><strong>Language:</strong> Java</li>
+        <li><strong>IDE:</strong> IntelliJ / Eclipse</li>
+        <li><strong>Input Handling:</strong> Scanner (No hard-coded values)</li>
+    </ul>
+
+    <hr>
+
+    <h2>📂 Branch Info</h2>
+    <pre>
+   
