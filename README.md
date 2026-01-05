@@ -171,16 +171,6 @@ A HashMap is a data structure that stores data in key-value pairs. It uses a has
 
 -containsKey(key) – Check if a key exists
 
-✔ Applications
-
--Frequency counting problems
-
--Caching data
-
--Indexing and lookup tables
-
--Solving array and string problems efficiently
-
 **📌 4. Hashing Function**
 
 A Hashing Function converts a given key into an index of a hash table where the corresponding value is stored.
@@ -192,16 +182,6 @@ A Hashing Function converts a given key into an index of a hash table where the 
 -Minimizes collisions
 
 -Fast computation
-
-✔ Collision Handling Techniques
-
--Chaining
-
--Open Addressing
-
--Linear Probing
-
--Quadratic Probing
 
 **🎯 Learning Outcome**
 
