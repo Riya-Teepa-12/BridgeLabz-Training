@@ -198,6 +198,115 @@ Practice implementation-based and problem-solving questions using Stack, Queue, 
 **Code Link**
 [Stack , Queue and HashMap](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-code-base/DSA/src/com)
 
+# Day 3 – Submission of Sorting Algorithms
+
+## 📌 Overview
+
+This submission focuses on understanding and implementing fundamental **sorting algorithms**. Sorting is a core concept in data structures and algorithms, widely used to organize data efficiently for searching, processing, and analysis.
+
+The following sorting techniques are covered:
+
+* Bubble Sort
+* Insertion Sort
+* Merge Sort
+* Quick Sort
+
+---
+
+## 🔹 1. Bubble Sort
+
+**Concept:**
+Bubble Sort repeatedly compares adjacent elements and swaps them if they are in the wrong order. With each pass, the largest element “bubbles up” to its correct position.
+
+**Key Points:**
+
+* Simple and easy to understand
+* Not efficient for large datasets
+* Stable sorting algorithm
+
+**Time Complexity:**
+
+* Best Case: O(n)
+* Average Case: O(n²)
+* Worst Case: O(n²)
+
+---
+
+## 🔹 2. Insertion Sort
+
+**Concept:**
+Insertion Sort builds the sorted array one element at a time by inserting each element into its correct position among previously sorted elements.
+
+**Key Points:**
+
+* Efficient for small or nearly sorted datasets
+* Stable sorting algorithm
+* Used in real-world scenarios like card sorting
+
+**Time Complexity:**
+
+* Best Case: O(n)
+* Average Case: O(n²)
+* Worst Case: O(n²)
+
+---
+
+## 🔹 3. Merge Sort
+
+**Concept:**
+Merge Sort follows the **divide and conquer** approach. It divides the array into smaller subarrays, sorts them recursively, and then merges them back together.
+
+**Key Points:**
+
+* Very efficient for large datasets
+* Requires extra memory
+* Stable sorting algorithm
+
+**Time Complexity:**
+
+* Best Case: O(n log n)
+* Average Case: O(n log n)
+* Worst Case: O(n log n)
+
+---
+
+## 🔹 4. Quick Sort
+
+**Concept:**
+Quick Sort selects a **pivot element**, partitions the array around the pivot, and recursively sorts the subarrays.
+
+**Key Points:**
+
+* Very fast in practice
+* Not stable by default
+* Performance depends on pivot selection
+
+**Time Complexity:**
+
+* Best Case: O(n log n)
+* Average Case: O(n log n)
+* Worst Case: O(n²)
+
+---
+
+## 🎯 Learning Outcomes
+
+* Understood different sorting techniques
+* Compared time and space complexities
+* Learned when to use which sorting algorithm
+* Strengthened problem-solving and algorithmic thinking
+
+---
+
+## ✅ Conclusion
+
+Sorting algorithms are essential for efficient data handling. While simple algorithms like Bubble and Insertion Sort help build foundational understanding, advanced algorithms like Merge Sort and Quick Sort are preferred for real-world applications.
+
+**Code Link**
+[Sorting](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-code-base/DSA/src/com/sorting)
+
+---
+
 
 
 
