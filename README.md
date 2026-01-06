@@ -437,7 +437,10 @@ for advanced Object-Oriented Programming concepts.
   </a>
 </p>
 
-
+**Scenario Based Java OOPs**
+-Day 1:- solved 5 problems
+-Day 2 :- solved 2 problems
+-Day 3 :- solved 2 problems
 
 
 
