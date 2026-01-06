@@ -1,4 +1,4 @@
-BridgeLabz Training Journey
+**BridgeLabz Training Journey**
 A comprehensive Java programming training repository covering Core Java fundamentals to Object-Oriented Programming concepts.
 
 Training Overview
@@ -12,6 +12,9 @@ This repository documents my learning journey at BridgeLabz, spanning from Decem
   </li>
   <li><strong>java-oops-practice</strong><br>
       Week 2: Object-Oriented Programming
+  </li>
+   <li><strong>dsa-practice</strong><br>
+      Week 3: DataStructures & Algorithm
   </li>
 </ul>
 
@@ -39,13 +42,13 @@ BridgeLabz-Training/
 |    |                ├── 📁 oops/
 |    |                │   ├── 📁 levelone/      # Basic OOPs 
 |    |                │   └── 📁 leveltwo/      # Advanced OOPs
-|    |               │
-|    |               ├── 📁 constructor/
-|    |               │   └── 📁 levelone/      # Constructors 
+|    |                │
+|    |                ├── 📁 constructor/
+|    |                │   └── 📁 levelone/      # Constructors 
 |    |                │
 |    |                ├── 📁 staticandfinal/
 |    |                │   └── 📁 levelone/      # static, final, static blocks
-|    |               │
+|    |                │
 |    |                ├── 📁 objectmodelling/
 |    |                │   ├── 📁 levelone/      # Simple real-world models
 |    |                │   └── 📁 leveltwo/      # Complex system design
@@ -54,12 +57,17 @@ BridgeLabz-Training/
 |    |                |
 |    |                | ── 📁 encapsulation/     # abstract class, getter setter , abstraction , polymorphism
 |    |                
-|    |───────────   📁 leet-code-codebase/ 
-|    | ───────────  📁 scenario-based/ 
+|    | ──── ──── ───   📁 leet-code-codebase/ 
+|    | ──── ──── ───  📁 scenario-based/ 
 |
 |──📁 dsa-practice/
-|
-|
+        📁 gcr-codebase/
+|    |   └── 📁 DSA/
+|    |        └── 📁 src/
+|    |            └── 📁 com/bridgelabz/
+|    |                ├── 📁 linkedlist/
+|                     |── 📁 stack and queue/
+|                     |── 📁 HashMap and Functions/
 |
 |
 |
@@ -201,6 +209,32 @@ BridgeLabz-Training/
   </tbody>
 </table>
 
+<h3>Week 3: DSA Concepts</h3>
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Day</th>
+      <th>Date</th>
+      <th>Topic</th>
+      <th>Programs Completed</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>2-Jan</td>
+      <td>Linkedlist</td>
+      <td>11 problem on linkedlist</td>
+    </tr>
+    <tr>
+     <td>2</td>
+      <td>3-Jan</td>
+      <td>Stack, Queue and Hashmap</td>
+      <td>10 problem on stack,queue and hashmap</td>
+    </tr>
+     </tbody>
+</table>
 
 <b>Key Concepts Covered</b>
 
