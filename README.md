@@ -58,7 +58,7 @@ BridgeLabz-Training/
 |    |                | ── 📁 encapsulation/     # abstract class, getter setter , abstraction , polymorphism
 |    |                
 |    | ──── ──── ───   📁 leet-code-codebase/ 
-|    | ──── ──── ───  📁 scenario-based/ 
+|    | ──── ──── ───  📁 scenario-based/        # 13 program on OOPs
 |
 |──📁 dsa-practice/
         📁 gcr-codebase/
@@ -232,6 +232,18 @@ BridgeLabz-Training/
       <td>3-Jan</td>
       <td>Stack, Queue and Hashmap</td>
       <td>10 problem on stack,queue and hashmap</td>
+    </tr>
+    <tr>
+     <td>3</td>
+      <td>5-Jan</td>
+      <td>Sorting</td>
+      <td>7 program on sorting</td>
+    </tr>
+    <tr>
+     <td>4</td>
+      <td>6-Jan</td>
+      <td>          </td>
+      <td>         </td>
     </tr>
      </tbody>
 </table>
