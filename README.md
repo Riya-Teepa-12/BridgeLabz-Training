@@ -82,7 +82,7 @@ The last node points back to the first node instead of `null`.
 [LinkedList](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-code-base/DSA/src/com/linkedlist)
 
 
-**🗓️ Day 2: Stack, Queue, HashMap & Hashing Function**
+##🗓️ Day 2: Stack, Queue, HashMap & Hashing Function**
 🔹 Topics Covered
 
 -Stack
@@ -306,7 +306,7 @@ Sorting algorithms are essential for efficient data handling. While simple algor
 [Sorting](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-code-base/DSA/src/com/sorting)
 
 
-# 📘 Day 6 – Searching Techniques & Java I/O Utilities
+# 📘 Day 4 – Searching Techniques & Java I/O Utilities
 
 ## 📌 Overview
 Day 6 focuses on understanding **searching algorithms** and important **Java utility classes** used for string manipulation and input handling. These concepts are fundamental for efficient data processing and problem-solving.
