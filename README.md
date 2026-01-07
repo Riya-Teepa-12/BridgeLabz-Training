@@ -305,6 +305,104 @@ Sorting algorithms are essential for efficient data handling. While simple algor
 **Code Link**
 [Sorting](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-code-base/DSA/src/com/sorting)
 
+
+# 📘 Day 6 – Searching Techniques & Java I/O Utilities
+
+## 📌 Overview
+Day 6 focuses on understanding **searching algorithms** and important **Java utility classes** used for string manipulation and input handling. These concepts are fundamental for efficient data processing and problem-solving.
+
+---
+
+## 🧠 Topics Covered
+
+### 🔍 Searching Algorithms
+- **Linear Search**
+- **Binary Search**
+
+### 🧵 Java String Handling
+- **StringBuilder**
+- **StringBuffer**
+
+### 📂 Java Input Classes
+- **FileReader**
+- **InputStreamReader**
+
+---
+
+## 🔎 Searching Algorithms
+
+### 1️⃣ Linear Search
+- Searches elements sequentially.
+- Works on both sorted and unsorted data.
+- Simple but less efficient for large datasets.
+
+**Time Complexity:**  
+- Best Case: O(1)  
+- Worst Case: O(n)
+
+---
+
+### 2️⃣ Binary Search
+- Efficient searching technique.
+- Works only on **sorted data**.
+- Repeatedly divides the search space in half.
+
+**Time Complexity:**  
+- Best Case: O(1)  
+- Worst Case: O(log n)
+
+---
+
+## 🧵 String Handling in Java
+
+### ✏️ StringBuilder
+- Mutable sequence of characters.
+- Faster than `StringBuffer`.
+- **Not thread-safe**.
+- Suitable for single-threaded applications.
+
+---
+
+### 🔒 StringBuffer
+- Mutable and **thread-safe**.
+- Slower than `StringBuilder`.
+- Used in multi-threaded environments.
+
+---
+
+## 📂 Java Input Classes
+
+### 📄 FileReader
+- Used to read character files.
+- Suitable for reading text files.
+- Works with character streams.
+
+---
+
+### ⌨️ InputStreamReader
+- Bridges byte streams to character streams.
+- Commonly used with `System.in`.
+- Useful for reading console input.
+
+---
+
+## 🎯 Key Takeaways
+- Choose **Linear Search** for small or unsorted data.
+- Use **Binary Search** for large, sorted datasets.
+- Prefer **StringBuilder** for performance.
+- Use **StringBuffer** when thread safety is required.
+- Understand input stream classes for effective I/O handling.
+
+---
+**Code Link**
+[Linear And Binary Search](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-code-base/DSA/src/com/linearandbinarysearch)
+
+
+
+---
+
+✨ *Consistent practice builds strong fundamentals in DSA and Java!*  
+
 ---
 
 
