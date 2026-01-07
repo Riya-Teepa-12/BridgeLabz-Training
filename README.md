@@ -57,8 +57,8 @@ BridgeLabz-Training/
 |    |                |
 |    |                | ── 📁 encapsulation/     # abstract class, getter setter , abstraction , polymorphism
 |    |                
-|    | ──── ──── ───   📁 leet-code-codebase/ 
-|    | ──── ──── ───  📁 scenario-based/        # 13 program on OOPs
+|    | ── ── ── ── ───   📁 leet-code-codebase/ 
+|    | ── ── ── ── ───  📁 scenario-based/        # 13 program on OOPs
 |
 |──📁 dsa-practice/
         📁 gcr-codebase/
@@ -66,12 +66,13 @@ BridgeLabz-Training/
 |    |        └── 📁 src/
 |    |            └── 📁 com/bridgelabz/
 |    |                ├── 📁 linkedlist/
-|                     |── 📁 stack and queue/
-|                     |── 📁 HashMap and Functions/
-|
-|
-|
-|
+|    |                 |── 📁 stack and queue/
+|    |                 |── 📁 HashMap and Functions/
+|    |                 |── 📁 Sorting
+|    |                 |── 📁Linear and Binary Search
+|    |
+|    | ── ── ── ── ───   📁 leet-code-codebase/ 
+|    | ── ── ── ── ───  📁 scenario-based/  
 |  
 </pre>
 
@@ -242,6 +243,12 @@ BridgeLabz-Training/
     <tr>
      <td>4</td>
       <td>6-Jan</td>
+      <td>Linear and Binary search</td>
+      <td> 16 program on linear and binary search</td>
+    </tr>
+     <tr>
+     <td>5</td>
+      <td>7-Jan</td>
       <td>          </td>
       <td>         </td>
     </tr>
