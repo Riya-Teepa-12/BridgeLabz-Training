@@ -252,6 +252,12 @@ BridgeLabz-Training/
       <td>Linear and Binary search</td>
       <td> 16 program on linear and binary search</td>
     </tr>
+     <tr>
+     <td>5</td>
+      <td>7-Jan</td>
+      <td>Algorithm analysis</td>
+      <td> 6 program on algorithm analysis</td>
+    </tr>
      </tbody>
 </table>
 
