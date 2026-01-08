@@ -74,6 +74,12 @@ BridgeLabz-Training/
 |    | ── ── ── ── ───   📁 leet-code-codebase/ 
 |    | ── ── ── ── ───  📁 scenario-based/  
 |  
+|
+|
+|
+|── ── ── ── ───  📁Readme.md/
+
+  
 </pre>
 
 
@@ -246,29 +252,35 @@ BridgeLabz-Training/
       <td>Linear and Binary search</td>
       <td> 16 program on linear and binary search</td>
     </tr>
-     <tr>
-     <td>5</td>
-      <td>7-Jan</td>
-      <td>          </td>
-      <td>         </td>
-    </tr>
      </tbody>
 </table>
 
-<b>Key Concepts Covered</b>
-
-Core Java (core-java-practice)
-Fundamentals: Variables, data types, operators
-Control Structures: If-else, loops, switch-case
-Arrays: Single & multi-dimensional arrays
-Methods: Parameters, return types, overloading
-Strings: Manipulation, comparisons, exceptions
-Problem Solving: LeetCode challenges, real-world scenarios
-Object-Oriented Programming (java-oops-practice)
-Classes & Objects: Creating and instantiating objects
-Encapsulation: Data hiding and access modifiers
-Constructors: Default, parameterized, overloading
-Abstraction: Interface-based design patterns
+##Key Concepts Covered
+**Core Java (core-java-practice)**
+-Fundamentals: Variables, data types, operators
+-Control Structures: If-else, loops, switch-case
+-Arrays: Single & multi-dimensional arrays
+-Methods: Parameters, return types, overloading
+-Strings: Manipulation, comparisons, exceptions
+-Problem Solving: LeetCode challenges, real-world scenarios
+**Object-Oriented Programming (java-oops-practice)**
+-Classes & Objects: Creating and instantiating objects
+-Encapsulation: Data hiding and access modifiers
+-Constructors: Default, parameterized, overloading
+-Abstraction: Interface-based design patterns
+-Inheritance: Parent and Chlid relations
+-Polymorphism: Method overloading and method overriding
+-Problem Solving: LeetCode challenges, real-world scenarios
+**Data Structures & Algorithms (dsa-practice)**
+-DSA Fundamentals: Time & space complexity, basic problem analysis
+-Linked Lists: Singly, doubly, and circular linked lists
+-Stacks: LIFO principle, push/pop operations, stack applications
+-Queues: FIFO principle, enqueue/dequeue operations, queue variants
+-HashMaps: Key-value storage, hashing concept, basic operations
+-Sorting: Basic sorting algorithms and comparison-based sorting concepts
+-Searching: Linear Search and Binary Search algorithms
+-String Utilities: StringBuilder and StringBuffer for mutable strings
+-File Handling: Reading input using FileReader and InputStreamReader
 
 <b>🛠️ Technologies Used</b>
 Language: Java (JDK 8+)
@@ -281,15 +293,6 @@ Total Programs: 150+ Java programs
 Levels Covered: Beginner → Intermediate
 Practice Platforms: LeetCode, Scenario-based challenges
 Coding Hours: 70+ hours
-🔗 Quick Links
-<p>
-📌 Prerequisites Programs<br>
-📌 Control Flows Solutions<br>
-📌 OOPs Implementations<br>
-📌 LeetCode Solutions
-</p>
-Sample Programs
-View Sample Code Structure
 
 <b>🎓 Learnings & Best Practices</b>
 Code Organization: Following industrial standards
