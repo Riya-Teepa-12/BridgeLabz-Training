@@ -137,7 +137,7 @@ BridgeLabz-Training/
 
 <h3>Week 2: Advanced Concepts</h3>
 
-<table border="1" cellpadding="8" cellspacing="0">
+<table border="1" cellpadding="15" cellspacing="1">
   <thead>
     <tr>
       <th>Day</th>
@@ -255,33 +255,39 @@ BridgeLabz-Training/
      </tbody>
 </table>
 
-##Key Concepts Covered
-**Core Java (core-java-practice)**
--Fundamentals: Variables, data types, operators
--Control Structures: If-else, loops, switch-case
--Arrays: Single & multi-dimensional arrays
--Methods: Parameters, return types, overloading
--Strings: Manipulation, comparisons, exceptions
--Problem Solving: LeetCode challenges, real-world scenarios
-**Object-Oriented Programming (java-oops-practice)**
--Classes & Objects: Creating and instantiating objects
--Encapsulation: Data hiding and access modifiers
--Constructors: Default, parameterized, overloading
--Abstraction: Interface-based design patterns
--Inheritance: Parent and Chlid relations
--Polymorphism: Method overloading and method overriding
--Problem Solving: LeetCode challenges, real-world scenarios
-**Data Structures & Algorithms (dsa-practice)**
--DSA Fundamentals: Time & space complexity, basic problem analysis
--Linked Lists: Singly, doubly, and circular linked lists
--Stacks: LIFO principle, push/pop operations, stack applications
--Queues: FIFO principle, enqueue/dequeue operations, queue variants
--HashMaps: Key-value storage, hashing concept, basic operations
--Sorting: Basic sorting algorithms and comparison-based sorting concepts
--Searching: Linear Search and Binary Search algorithms
--String Utilities: StringBuilder and StringBuffer for mutable strings
--File Handling: Reading input using FileReader and InputStreamReader
+<h1>Key Concepts Covered</h1>
+<b>Core Java (core-java-practice)<b>
 
+<ul>
+<li>Fundamentals: Variables, data types, operators</li>
+<li>Control Structures: If-else, loops, switch-case</li>
+<li>Arrays: Single & multi-dimensional arrays<li>
+<li>Methods: Parameters, return types, overloading</li>
+<li>Strings: Manipulation, comparisons, exceptions</li>
+<li>Problem Solving: LeetCode challenges, real-world scenarios</li>
+</ul>
+<b>Object-Oriented Programming (java-oops-practice)</b>
+<ul>
+<li>Classes & Objects: Creating and instantiating objects</li>
+<li>Encapsulation: Data hiding and access modifiers</li>
+<li>Constructors: Default, parameterized, overloading</li>
+<li>Abstraction: Interface-based design patterns</li>
+<li>Inheritance: Parent and Chlid relations</li>
+<li>Polymorphism: Method overloading and method overriding</li>
+<li>Problem Solving: LeetCode challenges, real-world scenarios</li>
+</ul>
+<b>Data Structures & Algorithms (dsa-practice)</b>
+<ul>
+<li>DSA Fundamentals: Time & space complexity, basic problem analysis</li>
+</li>Linked Lists: Singly, doubly, and circular linked lists</li>
+<li>Stacks: LIFO principle, push/pop operations, stack applications</li>
+<li>Queues: FIFO principle, enqueue/dequeue operations, queue variants</li>
+<li>HashMaps: Key-value storage, hashing concept, basic operations</li>
+<li>Sorting: Basic sorting algorithms and comparison-based sorting concepts</li>
+<li>Searching: Linear Search and Binary Search algorithms</li>
+<li>String Utilities: StringBuilder and StringBuffer for mutable strings</li>
+<li>File Handling: Reading input using FileReader and InputStreamReader</li>
+</ul>
 <b>🛠️ Technologies Used</b>
 Language: Java (JDK 8+)
 Version Control: Git & GitHub
