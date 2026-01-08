@@ -1,320 +1,254 @@
-**Git, GitHub & Java Programming Fundamentals**
+# 💻 BridgeLabz-Training
 
-This repository documents my **day-wise learning progress** during the BridgeLabz Core Java training program.
+## 🗓 Week 1 : Core Java Programming
 
-### Day 1 – Git & GitHub Setup
+## 📘 Section A : Training Learning Progress
 
-(**Date: 15-Dec-2025**)
+### 🗓 Day 1 – Git & GitHub Setup  
+**(Date: 15-Dec-2025)**
+- Installed and configured Git.
+- Set up GitHub repository.
+```
+BridgeLabz-Training/
+│── core-java-practice/
+│ 	│── gcr-codebase/
+│ 	│ 	│── arrays/
+│ 	│ 	│── control-flow/
+│ 	│ 	│── extras/
+│ 	│ 	│── methods/
+│ 	│ 	│── programming-elements/
+│ 	│ 	│── programming-requisites/
+│ 	│ 	│── strings/
+│ 	│── leet-code-codebase/
+│ 	│── scenario-based-codebase/
+│── README.md
+```
+- Learned basic Git commands (`init`, `clone`, `add`, `commit`, `push`).
+- Successfully pushed files to the remote repository.
 
-**Topics Covered:**
+### 🗓 Day 2 – Git Practice & Java Basic Programs  
+**(Date: 16-Dec-2025)**
+- Practiced Git workflow to understand commits and version control.
+- Solved very basic Java programs to understand syntax and structure.
+- Practiced adding, committing, and pushing Java files to GitHub.
+- 🔗 **Code Link:**
+👉 [Java Fundamentals and Basic Programs](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/program-requisite)
 
-* Prerequisite installation and setup:
-  * Git Bash
-  * Notepad++ (Text Editor)
-  * Java JDK
-  * GitHub account
-   
-* Studied Git commands:
-  * `git init`
-  * `git clone`
-  * `git add`
-  * `git commit`
-  * `git push`
-   
+### 🗓 Day 3 – Java Programming Elements  
+**(Date: 17-Dec-2025)**
+- Studied core programming elements:
+  - Java comments
+  - Basic data types
+  - Variable declaration and usage
+  - Arithmetic operators and operator precedence
+  - Type conversion
+  - Taking user input using `Scanner`
+- Solved practice programs based on the above concepts.
+- Committed and pushed all solutions to the repository.
+- 🔗 **Code Link:**  
+👉 [Programming Elements Programs](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/programming-elements)
 
-<img width="620" height="279" alt="image" src="https://github.com/user-attachments/assets/76a290ca-35dd-44a3-9413-7c01ed831d32" />
+### 🗓 Day 4 – Java Control Flow & Logical Constructs  
+**(Date: 18-Dec-2025)**
+- Studied logical constructs in Java:
+  - if, if-else, if-else-if
+  - switch statement
+  - ternary operator
+- Practiced iteration statements:
+  - for loop
+  - while loop
+  - do-while loop
+- Used `break` and `continue` statements.
+- Solved logical problems.
+- Committed and pushed solutions to the repository.
+- 🔗 **Code Link:**  
+👉 [Control Flows Programs](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/control-flows)
 
- 
----
-###  Day 2 – Java Programming Prerequisites
+### 🗓 Day 5 – Java Arrays & Basic Problem Solving  
+**(Date: 19-Dec-2025)**
+- Studied arrays in Java:
+  - Single-dimensional arrays
+  - Multi-dimensional arrays
+- Practiced array traversal and operations.
+- Strengthened logical thinking using array problems.
+- Committed and pushed solutions to the repository.
+- 🔗 **Code Link:**  
+👉 [Arrays Programs](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/arrays)
+  
+### 🗓 Day 6 – Java Methods
+**(Date: 20-Dec-2025)**
+- Studied Java methods:
+ - Method declaration
+ - Method calling
+ - Parameter passing
+ - Return types
+- Implemented programs for reusable methods.
+- Committed and pushed solutions to the repository.
+- 🔗 **Code Link:**  
+👉 [Methods Programs](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/methods)
 
-(**Date: 16-Dec-2025**)
-
-**Practiced:**
-* Basic input and output programs
-* Understanding Java program structure
-* Programming prerequisites required before Core Java concepts
-
-**Code Link:**
- [Day -2 Program Prerequisites](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/program-requisite)
-
-
-**Git Activity:**
-* Code committed and pushed to GitHub
-
----
-
-### Day 3 – Programming Elements in Java
-
-(**Date: 17-Dec-2025**)
-
-**Concepts Covered:**
-
-* Java comments
-* Basic data types
-* Variables
-* Arithmetic operators
-* Operator precedence
-* Type conversion
-* Taking user input using `Scanner`
-
-**Best Practices Followed:**
-
-* Clean and readable code
-* Proper naming conventions
-* Logical problem-solving approach
-
-**Code Link:**
- [Programming Elements](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/programming-elements)
-
-**Git Activity:**
-
-* Code committed and pushed to GitHub
-
----
-
-
-### Day 4 – Java Control Flow Statements
-
-(**Date: 18-Dec-2025**)
-
-**Studied topics**
-
-* Java control flow concepts
-* Boolean data type and expressions
-* Logical operators
-* Conditional statements:
-  * `if`
-  * `else if`
-  * `else`
-* Loops:
-
-  * `for`
-  * `while`
-* `break` and `continue`
-* `switch` statement
-* Practiced problems on control flow
-
-**Code Link:**
-[Control Flow Programs](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/control-flow)
-
-**Git Activity:**
-* Code committed and pushed to GitHub
-
----
-
-### Day 5 – Java Arrays
-
-(**Date: 19-Dec-2025**)
-
-**Studied the following concepts**
-
-* Java arrays
-* Creating and accessing arrays
-* Using `for` loop with arrays
-* Modifying array elements
-* Using the `length` property
-* Multi-dimensional arrays
-* 2D arrays (Matrix)
-* Accessing and finding size of arrays
-* Using `System.err()` and `System.exit()`
-
-**Code Link:**
-[Arrays Practice](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/arrays)
-
-**Git Activity:**
-
-* Code committed and pushed to GitHub
+### 🗓 Day 7 – Java Strings
+**(Date: 22-Dec-2025)**
+- Studied String concepts:
+ - String declaration
+ - String initialization
+ - String utility methods
+- Implemented programs for string manipulation.
+- Committed and pushed solutions to the repository.
+- 🔗 **Code Link:**  
+👉 [Strings Programs](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/String)
+  
+### 🗓 Day 8 – Java Built-in Functions & String Additionals
+**(Date: 23-Dec-2025)**
+- Practiced Java built-in classes such as `Math` and `Random`.
+- Worked with date and time handling using Java 8+ date-time APIs:
+  - `LocalDate`
+  - `LocalTime`
+  - `ChronoUnit`
+  - `LocalDateTime`
+  - `ZonedDateTime`
+  - `DateTimeFormatter`
+- Practiced String concepts including:
+  - Creating strings and taking string input
+  - Escape sequences (`\`)
+  - String arrays & String as method parameters
+  - Built-in `String` class methods
+  - ASCII character codes
+- Studied Java exception handling concepts:
+  - Java exception hierarchy
+  - Checked and unchecked exceptions
+  - `java.lang.Exception`
+- Implemented utility programs such as a unit converters.
+- Committed and pushed all changes successfully.
+- 🔗 **Code Link:**  
+👉 [Built-In Functions Programs](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/Extra)
 
 ---
+## 🧩 Section B : Scenario-Based Problems Progress
 
-### Day 6 – Java Methods
+### 🗓 Day 9 – Scenario-Based Practice  
+**(Date: 24-Dec-2025)**
+- Solved **2** scenario-based problems.
+- Focused on logical thinking and real-world problem solving.
+- Committed and pushed all solutions.
+- 🔗 **Code Links:**  
+👉 [Scenario Based Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase/Day%20%2001)  
 
-(**Date: 20-Dec-2025**)
-
-**Studied and practiced problems on topics:**
-
-* User-defined methods
-* Using methods multiple times
-* Making methods dynamic
-* Recursive methods
-* Static methods
-* Java standard library methods
-* `java.lang.Math` class
-* Types of data types
-* Why Java is considered mostly OOP
-* Primitive vs wrapper classes
-* Memory management in Java
-* Purpose of `void`
-* Types of return statements
-* `String[] args` in the `main` method
-
-**Code Link:**
-[Java Methods](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/Methods)
-
-**Git Activity:**
-
-* Code committed and pushed to GitHub
-
----
- **Additional Concepts Discussed:**
-
-###  Day 7 – Strings & Exception Handling
-
-(**Date: 22-Dec-2025**)
-
-**Studied and practiced problems on topic:**
-
-* String creation using literals and `new` keyword
-* Escape sequences
-* Taking string input
-* String arrays
-* Strings as method parameters
-* Built-in String methods
-* ASCII character codes
-* Java exceptions
-* Exception hierarchy
-* Checked and unchecked exceptions
-* `throw` and `throws`
-
-**Advanced Concepts Discussed:**
-
-* String immutability
-* String Constant Pool (SCP)
-* Heap vs stack memory
-* `StringBuilder` vs `StringBuffer`
-* `.equals()` vs `==`
-* Difference between `length` and `length()`
-
-**Code Link:**
-[Strings & Exceptions](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/Strings)
-
-**Git Activity:**
-
-* Code committed and pushed to GitHub
-
----
-
-###  Day 8 – Extra Practice & Date-Time API
-
-(**Date: 23-Dec-2025**)
-
-**Topics studied:**
-
-* Built-in Java functions
-* Object class `.equals()` vs String `.equals()`
-* `==` operator comparisons
-* Thread basics and thread safety
-* Legacy Date-Time API (`Date`, `Calendar`)
-
- **Topics Practiced:**
-* Common built-in functions
-* Modern Date-Time API (`java.time`)
-
-  * `LocalDate`
-  * `LocalTime`
-  * `LocalDateTime`
-  * `ZonedDateTime`
-* Date parsing, formatting, and comparison
-* Date arithmetic using built-in methods
-
-**Code Link:**
-[Extra Practice](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/Extra)
-
-**Git Activity:**
-
-* Code committed and pushed to GitHub
-
----
-
-### 🗓 Day 9 – Scenario-Based & LeetCode Array Practice  
-*(Date: 24-Dec-2025)*
-
-- Solved *2 scenario-based problems* using Java.
-- Practiced *5 array-based problems on LeetCode*.
+### 🗓 Day 10 – Scenario-Based Practice  
+**(Date: 26-Dec-2025)**
+- Solved **3** scenario-based problems.
 - Focused on logical thinking and clean code.
 - Committed and pushed all solutions.
+- 🔗 **Code Links:**  
+👉 [Scenario Based Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase/Day%2002)  
 
-🔗 *Code Links:*  
-👉 [Scenario Based Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase/Day-01)
-👉 [LeetCode Array Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/Array)
-
----
-
-### 🗓 Day 10 – Scenario-Based & LeetCode String Practice  
-*(Date: 26-Dec-2025)*
-
-- Solved *3 scenario-based problems* using Java.
-- Practiced *5 string-based problems on LeetCode*.
-- Focused on logical thinking and clean code.
+### 🗓 Day 11 – Scenario-based Practice  
+**(Date: 29-Dec-2025)**
+- Practiced **5** scenario-based problems.
+- Focused on logic and better user interface.
 - Committed and pushed all solutions.
+- 🔗 **Code Links:**  
+👉 [Scenario Based Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase/Day%2003)
 
-🔗 *Code Links:*  
-👉 [Scenario Based Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase/Day-02)
-👉 [LeetCode String Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/Strings)
+### 🗓 Day 12 – Scenario-based Practice  
+**(Date: 30-Dec-2025)**
+- Practiced **5** scenario-based problems.
+- Focused on logic and better user interface.
+- Committed and pushed all solutions.
+- 🔗 **Code Links:**  
+👉 [Scenario Based Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase/Day%2004)
+
+### 🗓 Day 13 – Scenario-based Practice  
+**(Date: 31-Dec-2025)**
+- Practiced **5** scenario-based problems.
+- Focused on logic and better user interface.
+- Committed and pushed all solutions.
+- 🔗 **Code Links:**  
+👉 [Scenario Based Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase/Day%2005)
+
+---
+## 🧮 Section C : LeetCode-based Problems Progress
+
+### 🗓 Day 9 – LeetCode-based Practice  
+**(Date: 24-Dec-2025)**
+- Practiced **5** arrays-based problems.
+- Created driver-main method & taken user inputs.
+- Committed and pushed all solutions.
+- 🔗 **Code Links:**  
+👉 [LeetCode Array Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/Array)
+
+### 🗓 Day 10 – LeetCode-based Practice  
+**(Date: 25-Dec-2025)**
+- Practiced **5** arrays-based problems.
+- Created driver-main method & taken user inputs.
+- Committed and pushed all solutions.
+- 🔗 **Code Links:**  
+👉 [LeetCode Array Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/Array)
+
+### 🗓 Day 11 – LeetCode-based Practice  
+**(Date: 26-Dec-2025)**
+- Practiced **5** arrays-based problems.
+- Created driver-main method & taken user inputs.
+- Committed and pushed all solutions.
+- 🔗 **Code Links:**
+👉 [LeetCode Array Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/Array)
+
+### 🗓 Day 12 – LeetCode-based Practice  
+**(Date: 27-Dec-2025)**
+- Practiced **5** strings-based problems.
+- Created driver-main method & taken user inputs.
+- Committed and pushed all solutions.
+- 🔗 **Code Links:**  
+👉 [LeetCode Strings Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/String)
+
+### 🗓 Day 13 – LeetCode-based Practice  
+**(Date: 28-Dec-2025)**
+- Practiced **5** strings-based problems.
+- Created driver-main method & taken user inputs.
+- Committed and pushed all solutions.
+- 🔗 **Code Links:**
+👉 [LeetCode Strings Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/String)
+
+### 🗓 Day 14 – LeetCode-based Practice  
+**(Date: 29-Dec-2025)**
+- Practiced **5** strings-based problems.
+- Created driver-main method & taken user inputs.
+- Committed and pushed all solutions.
+- 🔗 **Code Links:**
+👉 [LeetCode Strings Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/String)
+
+### 🗓 Day 15 – LeetCode-based Practice  
+**(Date: 30-Dec-2025)**
+- Practiced **5** array based problems.
+- Created driver-main method & taken user inputs.
+- Committed and pushed all solutions.
+- 🔗 **Code Links:**
+👉 [LeetCode Array Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/Array)
+
+### 🗓 Day 16 – LeetCode-based Practice  
+**(Date: 31-Dec-2025)**
+- Practiced **2** math and basic logic problems.
+- Created driver-main method & taken user inputs.
+- Committed and pushed all solutions.
+- 🔗 **Code Links:**
+👉 [LeetCode Math Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/math)
+
+### 🗓 Day 17 – LeetCode-based Practice  
+**(Date: 01-Jan-2026)**
+- Practiced **3** math based problems.
+- Created driver-main method & taken user inputs.
+- Committed and pushed all solutions.
+- 🔗 **Code Links:**
+👉 [LeetCode Math Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/math)
 
 ---
 
-<b><h3>🗓Day 11 – LeetCode String & Array Practice</h3></b>
-*(Date: 27-Dec-2025)*
+### 🗓 Day 18 – LeetCode-based Practice  
+**(Date: 06-Jan-2026)**
+- Practiced **5** String based problems.
+- Created driver-main method & taken user inputs.
+- Committed and pushed all solution.
+- 🔗 **Code Links:**
+👉 [LeetCode String Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/String)
 
-Practiced 5 string-based problems on LeetCode.<br>
-Practiced 5 array-based problems on LeetCode.<br>
-Focused on logical thinking and clean code.<br>
-Committed and pushed all solutions.
-
-🔗 <b>*Code Links:*</b>
-👉 [LeetCode String Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/Strings)
-👉 [LeetCode Array Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/Array)
-
-<b><h3>🗓Day 12– LeetCode String & Array Practice</h3></b>
-*(Date: 29-Dec-2025)*
-
-Practiced 3 string-based problems on LeetCode.<br>
-Practiced 2 array-based problems on LeetCode.<br>
-Focused on logical thinking and clean code.<br>
-Committed and pushed all solutions.
-
-🔗 <b>*Code Links:*</b>
-👉 [LeetCode String Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/Strings)
-👉 [LeetCode Array Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/Array)
-
-<b><h3>🗓Day 13– LeetCode String & Array Practice</h3></b>
-*(Date: 30-Dec-2025)*
-
-Practiced 3 string-based problems on LeetCode.<br>
-Practiced 2 array-based problems on LeetCode.<br>
-Focused on logical thinking and clean code.<br>
-Committed and pushed all solutions.
-
-🔗 <b>*Code Links:*</b>
-👉 [LeetCode String Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/Strings)
-👉 [LeetCode Array Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/Array)
-
-<b><h3>🗓Day 14– LeetCode String & Array Practice</h3></b>
-*(Date: 31-Dec-2025)*
-
-Practiced 3 string-based problems on LeetCode.<br>
-Practiced 2 array-based problems on LeetCode.<br>
-Focused on logical thinking and clean code.<br>
-Committed and pushed all solutions.
-
-🔗 <b>*Code Links:*</b>
-👉 [LeetCode String Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/Strings)
-👉 [LeetCode Array Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/Array)
-
-<b><h3>🗓Day 15– LeetCode Practice</h3></b>
-*(Date: 01-Jan-2026)*
-
-Practiced 3 string-based problems on LeetCode.<br>
-Practiced 2 array-based problems on LeetCode.<br>
-Focused on logical thinking and clean code.<br>
-Committed and pushed all solutions.
-
-🔗 <b>*Code Links:*</b>
-👉 [LeetCode String Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/Strings)
-👉 [LeetCode Array Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/Array)
-👉 [LeetCode Math Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/Math)
-
-
-
+---
