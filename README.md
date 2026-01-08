@@ -81,7 +81,7 @@ BridgeLabz-Training/
 - Practiced implementations and solved problems on each concept.
 - Committed and pushed all work.
 - 🔗 **Code Link:**  
-👉 [Searching & Java Utilities](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-code-base/DSA/src/com/searching)
+👉 [Searching & Java Utilities](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-code-base/DSA/src/com/linearandbinarysearch)
 
 ### 🗓 Day 19 – Algorithm Runtime Analysis & Big-O Notation  
 **(Date: 07-Jan-2026)**
