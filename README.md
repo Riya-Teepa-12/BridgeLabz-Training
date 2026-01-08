@@ -32,7 +32,7 @@ BridgeLabz-Training/
 - Prepared to start Classes and Objects.
 - Committed and pushed all work.
 - 🔗 **Code Link:**  
-👉 [Classes and Objects](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/classandobject)
+👉 [Classes and Objects](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/classandobjects)
 
 ### 🗓 Day 10 – Constructors & Static Concepts  
 **(Date: 27-Dec-2025)**
@@ -43,7 +43,7 @@ BridgeLabz-Training/
 - Learned instance vs class (`static`) variables and methods.
 - Committed and pushed all work.
 - 🔗 **Code Link:**  
-👉 [Constructors & Static Concepts](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/constructor/level1)
+👉 [Constructors & Static Concepts](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/constructor/Level1)
 
 ### 🗓 Day 11 – Java `this`, `final`, `static` & instanceof operator  
 **(Date: 29-Dec-2025)**
@@ -53,7 +53,7 @@ BridgeLabz-Training/
 - Explored Eclipse editor and its use.
 - Committed and pushed all work.
 - 🔗 **Code Link:**  
-👉 [this, final, static, instanceof](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/staticandfinal/level1)
+👉 [this, final, static, instanceof](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/StaticandFinal/Level1)
 
 ### 🗓 Day 12 – Object Modeling & Real-World Design  
 **(Date: 30-Dec-2025)**
