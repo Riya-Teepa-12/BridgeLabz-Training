@@ -32,7 +32,7 @@ BridgeLabz-Training/
 - Prepared to start Classes and Objects.
 - Committed and pushed all work.
 - 🔗 **Code Link:**  
-👉 [Classes and Objects](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/classandobjects)
+👉 [Classes and Objects](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-code-base/JavaOopsPractice/src/com/classandobjects)
 
 ### 🗓 Day 10 – Constructors & Static Concepts  
 **(Date: 27-Dec-2025)**
@@ -43,7 +43,7 @@ BridgeLabz-Training/
 - Learned instance vs class (`static`) variables and methods.
 - Committed and pushed all work.
 - 🔗 **Code Link:**  
-👉 [Constructors & Static Concepts](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/constructor/Level1)
+👉 [Constructors & Static Concepts](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-code-base/JavaOopsPractice/src/com/constructor/Level1)
 
 ### 🗓 Day 11 – Java `this`, `final`, `static` & instanceof operator  
 **(Date: 29-Dec-2025)**
@@ -53,7 +53,7 @@ BridgeLabz-Training/
 - Explored Eclipse editor and its use.
 - Committed and pushed all work.
 - 🔗 **Code Link:**  
-👉 [this, final, static, instanceof](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/StaticandFinal/Level1)
+👉 [this, final, static, instanceof](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-code-base/JavaOopsPractice/src/com/StaticandFinal/Level1)
 
 ### 🗓 Day 12 – Object Modeling & Real-World Design  
 **(Date: 30-Dec-2025)**
@@ -68,7 +68,7 @@ BridgeLabz-Training/
   - Composition
 - Committed and pushed all work.
 - 🔗 **Code Link:**  
-👉 [Object Modelling and Relations](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/objectmodelling)
+👉 [Object Modelling and Relations](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-code-base/JavaOopsPractice/src/com/objectmodelling)
 
 ### 🗓 Day 13 – Java Inheritance and Types
 **(Date: 31-Dec-2025)**
@@ -87,7 +87,7 @@ BridgeLabz-Training/
   - `private`
 - Committed and pushed all work.
 - 🔗 **Code Link:**  
-👉 [Inheritance and Types](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/inheritance)
+👉 [Inheritance and Types](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-code-base/JavaOopsPractice/src/com/inheritance)
 
 ### 🗓 Day 14 – Java Encapsulation & Polymorphism
 **(Date: 01-Dec-2026)**
@@ -104,7 +104,7 @@ BridgeLabz-Training/
 - Learned more about best practices. 
 - Committed and pushed all work.
 - 🔗 **Code Link:**  
-👉 [Encapsulation & Polymorphism](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/encapsulation)
+👉 [Encapsulation & Polymorphism](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-code-base/JavaOopsPractice/src/com/encapsulation)
 
 ---
 ## 🧩 Section B : Scenario-Based Problems Progress
@@ -115,7 +115,7 @@ BridgeLabz-Training/
 - Focused on logical thinking and real-world problem solving.
 - Committed and pushed all solutions.
 - 🔗 **Code Links:**  
-👉 [Scenario Based Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/java-oops-practice/scenario-based/OopsScenarioBasedProblem/src/com/day1)  
+👉 [Scenario Based Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-base-code/OopsScenarioBasedProblems/src/com/day1)  
 
 ---
 
@@ -125,7 +125,8 @@ BridgeLabz-Training/
 - Focused on logical thinking and real-world problem solving.
 - Committed and pushed all solutions.
 - 🔗 **Code Links:**  
-👉 [Scenario Based Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/java-oops-practice/scenario-based/OopsScenarioBasedProblem/src/com/day2)  
+👉 [Scenario Based Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-base-code/OopsScenarioBasedProblems/src/com/day2)  
+
 
 ---
 
@@ -135,7 +136,8 @@ BridgeLabz-Training/
 - Focused on logical thinking and real-world problem solving.
 - Committed and pushed all solutions.
 - 🔗 **Code Links:**  
-👉 [Scenario Based Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/java-oops-practice/scenario-based/OopsScenarioBasedProblem/src/com/day3)  
+👉 [Scenario Based Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-base-code/OopsScenarioBasedProblems/src/com/day3)  
+
 
 ---
 
@@ -145,7 +147,8 @@ BridgeLabz-Training/
 - Focused on logical thinking and real-world problem solving.
 - Committed and pushed all solutions.
 - 🔗 **Code Links:**  
-👉 [Scenario Based Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/java-oops-practice/scenario-based/OopsScenarioBasedProblem/src/com/day4)  
+👉 [Scenario Based Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-base-code/OopsScenarioBasedProblems/src/com/day4)  
+ 
 
 ---
 
@@ -155,7 +158,8 @@ BridgeLabz-Training/
 - Focused on logical thinking and real-world problem solving.
 - Committed and pushed all solutions.
 - 🔗 **Code Links:**  
-👉 [Scenario Based Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/java-oops-practice/scenario-based/OopsScenarioBasedProblem/src/com/day5)  
+👉 [Scenario Based Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-base-code/OopsScenarioBasedProblems/src/com/day5)  
+ 
 
 ---
 
