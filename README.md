@@ -7,7 +7,7 @@
 ### 🗓 Day 9 – Introduction to Object-Oriented Programming  
 **(Date: 26-Dec-2025)**
 - Set up and reviewed the `java-oops-practice` branch structure.
-```
+- 
 BridgeLabz-Training/
 │── java-oops-practice/
 │   │── gcr-codebase/
