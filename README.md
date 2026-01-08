@@ -239,11 +239,11 @@ BridgeLabz-Training/
 ---
 ### 🗓 Day 18 – LeetCode-based Practice  
 **(Date: 02-Jan-2026)**
-- Practiced **3** math based problems.
+- Practiced **3** Bit-manipulation based problems.
 - Created driver-main method & taken user inputs.
 - Committed and pushed all solutions.
 - 🔗 **Code Links:**
-👉 [LeetCode Math Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/Bit-Manipulation)
+👉 [LeetCode Bit-Manipulation Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/Bit-Manipulation)
 ---
 
 
