@@ -62,7 +62,7 @@ BridgeLabz-Training/
 - Solved logical problems.
 - Committed and pushed solutions to the repository.
 - 🔗 **Code Link:**  
-👉 [Control Flows Programs](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/control-flows)
+👉 [Control Flows Programs](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/control-flow)
 
 ### 🗓 Day 5 – Java Arrays & Basic Problem Solving  
 **(Date: 19-Dec-2025)**
@@ -74,7 +74,6 @@ BridgeLabz-Training/
 - Committed and pushed solutions to the repository.
 - 🔗 **Code Link:**  
 👉 [Arrays Programs](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/arrays)
-  
 ### 🗓 Day 6 – Java Methods
 **(Date: 20-Dec-2025)**
 - Studied Java methods:
@@ -85,7 +84,7 @@ BridgeLabz-Training/
 - Implemented programs for reusable methods.
 - Committed and pushed solutions to the repository.
 - 🔗 **Code Link:**  
-👉 [Methods Programs](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/methods)
+👉 [Methods Programs](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/Methods)
 
 ### 🗓 Day 7 – Java Strings
 **(Date: 22-Dec-2025)**
@@ -96,7 +95,7 @@ BridgeLabz-Training/
 - Implemented programs for string manipulation.
 - Committed and pushed solutions to the repository.
 - 🔗 **Code Link:**  
-👉 [Strings Programs](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/String)
+👉 [Strings Programs](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/Strings)
   
 ### 🗓 Day 8 – Java Built-in Functions & String Additionals
 **(Date: 23-Dec-2025)**
@@ -132,7 +131,7 @@ BridgeLabz-Training/
 - Focused on logical thinking and real-world problem solving.
 - Committed and pushed all solutions.
 - 🔗 **Code Links:**  
-👉 [Scenario Based Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase/Day%20%2001)  
+👉 [Scenario Based Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase/Day-01)
 
 ### 🗓 Day 10 – Scenario-Based Practice  
 **(Date: 26-Dec-2025)**
@@ -140,7 +139,7 @@ BridgeLabz-Training/
 - Focused on logical thinking and clean code.
 - Committed and pushed all solutions.
 - 🔗 **Code Links:**  
-👉 [Scenario Based Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase/Day%2002)  
+👉 [Scenario Based Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase/Day-02)
 
 ### 🗓 Day 11 – Scenario-based Practice  
 **(Date: 29-Dec-2025)**
@@ -148,7 +147,7 @@ BridgeLabz-Training/
 - Focused on logic and better user interface.
 - Committed and pushed all solutions.
 - 🔗 **Code Links:**  
-👉 [Scenario Based Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase/Day%2003)
+👉 [Scenario Based Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase/Day-03)
 
 ### 🗓 Day 12 – Scenario-based Practice  
 **(Date: 30-Dec-2025)**
@@ -156,7 +155,7 @@ BridgeLabz-Training/
 - Focused on logic and better user interface.
 - Committed and pushed all solutions.
 - 🔗 **Code Links:**  
-👉 [Scenario Based Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase/Day%2004)
+👉 [Scenario Based Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase/Day-04)
 
 ### 🗓 Day 13 – Scenario-based Practice  
 **(Date: 31-Dec-2025)**
@@ -164,7 +163,7 @@ BridgeLabz-Training/
 - Focused on logic and better user interface.
 - Committed and pushed all solutions.
 - 🔗 **Code Links:**  
-👉 [Scenario Based Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase/Day%2005)
+👉 [Scenario Based Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase/Day-05)
 
 ---
 ## 🧮 Section C : LeetCode-based Problems Progress
@@ -176,7 +175,6 @@ BridgeLabz-Training/
 - Committed and pushed all solutions.
 - 🔗 **Code Links:**  
 👉 [LeetCode Array Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/Array)
-
 ### 🗓 Day 10 – LeetCode-based Practice  
 **(Date: 25-Dec-2025)**
 - Practiced **5** arrays-based problems.
@@ -192,14 +190,13 @@ BridgeLabz-Training/
 - Committed and pushed all solutions.
 - 🔗 **Code Links:**
 👉 [LeetCode Array Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/Array)
-
 ### 🗓 Day 12 – LeetCode-based Practice  
 **(Date: 27-Dec-2025)**
 - Practiced **5** strings-based problems.
 - Created driver-main method & taken user inputs.
 - Committed and pushed all solutions.
 - 🔗 **Code Links:**  
-👉 [LeetCode Strings Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/String)
+👉 [LeetCode Strings Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/Strings)
 
 ### 🗓 Day 13 – LeetCode-based Practice  
 **(Date: 28-Dec-2025)**
@@ -207,7 +204,7 @@ BridgeLabz-Training/
 - Created driver-main method & taken user inputs.
 - Committed and pushed all solutions.
 - 🔗 **Code Links:**
-👉 [LeetCode Strings Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/String)
+👉 [LeetCode Strings Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/Strings)
 
 ### 🗓 Day 14 – LeetCode-based Practice  
 **(Date: 29-Dec-2025)**
@@ -215,7 +212,7 @@ BridgeLabz-Training/
 - Created driver-main method & taken user inputs.
 - Committed and pushed all solutions.
 - 🔗 **Code Links:**
-👉 [LeetCode Strings Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/String)
+👉 [LeetCode Strings Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/Strings)
 
 ### 🗓 Day 15 – LeetCode-based Practice  
 **(Date: 30-Dec-2025)**
@@ -231,24 +228,23 @@ BridgeLabz-Training/
 - Created driver-main method & taken user inputs.
 - Committed and pushed all solutions.
 - 🔗 **Code Links:**
-👉 [LeetCode Math Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/math)
-
+👉 [LeetCode Math Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/Math)
 ### 🗓 Day 17 – LeetCode-based Practice  
 **(Date: 01-Jan-2026)**
 - Practiced **3** math based problems.
 - Created driver-main method & taken user inputs.
 - Committed and pushed all solutions.
 - 🔗 **Code Links:**
-👉 [LeetCode Math Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/math)
-
+👉 [LeetCode Math Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/Math)
+---
+### 🗓 Day 18 – LeetCode-based Practice  
+**(Date: 02-Jan-2026)**
+- Practiced **3** math based problems.
+- Created driver-main method & taken user inputs.
+- Committed and pushed all solutions.
+- 🔗 **Code Links:**
+👉 [LeetCode Math Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/Bit-Manipulation)
 ---
 
-### 🗓 Day 18 – LeetCode-based Practice  
-**(Date: 06-Jan-2026)**
-- Practiced **5** String based problems.
-- Created driver-main method & taken user inputs.
-- Committed and pushed all solution.
-- 🔗 **Code Links:**
-👉 [LeetCode String Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/String)
 
 ---
