@@ -93,6 +93,8 @@ BridgeLabz-Training/
 - Studied practical guidelines for optimizing Java code.
 - Committed and pushed all work
 
+- 🔗 **Code Link:**  
+👉 [Algorithm Analysis](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-code-base/DSA/src/com/algorithmanalysis)
 ---
 
 ## 🧩 Section B : Scenario-Based Problems Progress
