@@ -253,5 +253,13 @@ BridgeLabz-Training/
 - 🔗 **Code Links:**
 👉 [LeetCode Bit-Manipulation Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/Array)
 ---
+### 🗓 Day 20 – LeetCode-based Practice  
+**(Date: 10-Jan-2026)**
+- Practiced **3** Array and String based problems.
+- Created driver-main method & taken user inputs.
+- Committed and pushed all solutions.
+- 🔗 **Code Links:**
+👉 [LeetCode Array](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/Array)
+👉 [LeetCode String](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/Strings)
 
 ---
