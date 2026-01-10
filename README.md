@@ -99,9 +99,11 @@ BridgeLabz-Training/
 
 ## 🧩 Section B : Scenario-Based Problems Progress
   **(Date: 09-Jan-2026)**
--Solved 3 scenario-based problems.
--Focused on logical thinking and real-world problem solving.
--Committed and pushed all solutions.
+<ul>
+<li>Solved 3 scenario-based problems.</li>
+<li>Focused on logical thinking and real-world problem solving.</li>
+<li>Committed and pushed all solutions.</li>
+</ul>
 
 -🔗 **Code Links:**
 👉 [Scenario- Based](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-base/DSAScenarioProblems/src/com/Day1)
