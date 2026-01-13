@@ -178,6 +178,15 @@ BridgeLabz-Training/
 - Committed and pushed all solutions.
 - 🔗 **Code Links:**  
 👉 [Scenario Based Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-base-code/OopsScenarioBasedProblems/src/com/day7)  
+
+
+  ### 🗓 Day 22 – Scenario-Based Practice  
+**(Date: 12-Jan-2026)**
+- Solved **3** scenario-based problems.
+- Focused on logical thinking and real-world problem solving.
+- Committed and pushed all solutions.
+- 🔗 **Code Links:**  
+👉 [Scenario Based Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-base-code/OopsScenarioBasedProblems/src/com/day8)  
  
 
 ---
