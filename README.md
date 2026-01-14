@@ -82,10 +82,10 @@
 
 ## 📊 Training Statistics
 
-- **Total Days:** 11
-- **Total Programs:** 150+
+- **Total Days:** 23
+- **Total Programs:** 180+
 - **Levels Covered:** Beginner → Intermediate
-- **Coding Hours:** 70+
+- **Coding Hours:** 90+
 
 ---
 
