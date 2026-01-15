@@ -155,7 +155,7 @@ BridgeLabz-Training/
 - **Total Days:** 23
 - **Total Programs:** 180+
 - **Levels Covered:** Beginner → Intermediate
-- **Coding Hours:** 90+
+- **Coding Hours:** 100+
 
 ---
 
