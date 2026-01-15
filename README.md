@@ -26,31 +26,47 @@ The training is organized into structured branches covering different aspects of
 
 ## 📂 Project Structure
 ```
-
 BridgeLabz-Training/
 │
-├── core-java-practice/
-│ ├── gcr-codebase/
-│ │ ├── prerequisites/
-│ │ ├── programming-elements/
-│ │ ├── control-flows/
-│ │ ├── arrays/
-│ │ ├── methods/
-│ │ ├── strings/
-│ │ └── extras/
-│ ├── leet-code-codebase/
-│ └── scenario-based/
+├── 📁 core-java-practice/
+│   ├── 📁 gcr-codebase/
+│   │   ├── 📁 prerequisites/          # Basic Java programs 
+│   │   ├── 📁 programming-elements/   # Java programming elements 
+│   │   ├── 📁 control-flows/          # If-else, loops, switch 
+│   │   ├── 📁 arrays/                 # Array operations
+│   │   ├── 📁 methods/                # Method practices
+│   │   ├── 📁 strings/                # String manipulation 
+│   │   └── 📁 Extras/                 # Built-in methods
+│   ├── 📁 leet-code-codebase/         # LeetCode solutions
+│   └── 📁 scenario-based-codebase/    # Real-world problems
 │
-├── java-oops-practice/
-│ ├── gcr-codebase/
-│ │ └── JavaOopsConcepts/
-│ ├── leet-code-codebase/
-│ └── scenario-based/
-│
-└── dsa-practice/
-├── gcr-codebase/
-├── leet-code-codebase/
-└── scenario-based/
+└── 📁 java-oops-practice/
+│   └── 📁 gcr-codebase/
+│   │  └── 📁 JavaOopsConcepts/
+│   │       └── 📁 src/
+│   │           └── 📁 com/
+│   │               ├── 📁 classandobject/    # Procedural vs OOP, fundamentals
+│   │               └── 📁 constructor/       # Constructor, access modifiers
+│   │               └── 📁 inbuiltfunctions/  # Keywords, instance vs class members
+│   │               └── 📁 objectmodeling/    # Diagrams, relationships, communication
+│   │               └── 📁 inheritance/       # Types, method overriding, & access modifiers
+│   │               └── 📁 encapsulation/     # Abstract class, interface, & polymorphism
+│   ├── 📁 leet-code-codebase/                # LeetCode solutions
+│   └── 📁 scenario-based-codebase/           # Real-world problems
+|
+└── 📁 dsa-practice/
+│   └── 📁 gcr-codebase/
+│   │  └── 📁 DSAConcepts/
+│   │       └── 📁 src/
+│   │           └── 📁 com/
+│   │               ├── 📁 linkedlists/                 # singly, doubly & circular
+│   │               └── 📁 stacksandqueues/             # Last-In-First-Out (LIFO) and First-In-First-Out (FIFO)
+│   │               └── 📁 hashmapsandhashfunctions/    # Key-Value pairs
+│   │               └── 📁 sorting/                     # Sorting algorithms
+│   ├── 📁 leet-code-codebase/                          # LeetCode solutions
+│   └── 📁 scenario-based-codebase/                     # Real-world problems
+|
+└── README.md
 
 ```
 
@@ -97,6 +113,7 @@ BridgeLabz-Training/
 
 ---
 
+##  🗓️ Week 4: JAVA Collections
 ## 🔑 Key Concepts Covered
 
 ### Core Java
