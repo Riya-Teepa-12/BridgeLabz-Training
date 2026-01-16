@@ -132,6 +132,18 @@ BridgeLabz-Training/
 -🔗 **Code Links:**
 👉 [Scenario- Based](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-base/DSAScenarioProblems/src/com/Day3)
 
+
+
+ **(Date: 14-Jan-2026)**
+<ul>
+<li>Solved 5 scenario-based problems.</li>
+<li>Focused on logical thinking and real-world problem solving.</li>
+<li>Committed and pushed all solutions.</li>
+</ul>
+
+-🔗 **Code Links:**
+👉 [Scenario- Based](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-base/DSAScenarioProblems/src/com/Day4)
+
 ---
 ## 🧮 Section C : LeetCode-based Problems Progress
 
