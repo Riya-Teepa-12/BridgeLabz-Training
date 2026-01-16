@@ -139,7 +139,8 @@ BridgeLabz-Training/
 - HashMaps
 - Sorting algorithms
 - Searching algorithms
-
+- Tree
+- Graph
 ---
 
 ## 🛠️ Technologies Used
