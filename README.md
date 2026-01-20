@@ -197,6 +197,23 @@ BridgeLabz-Training/
 👉 [Scenario Based Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-base-code/OopsScenarioBasedProblems/src/com/day9)  
  
 
+
+  ### 🗓 Day 24 – Scenario-Based Practice  
+**(Date: 16-Jan-2026)**
+- Solved **2** scenario-based problems.
+- Focused on logical thinking and real-world problem solving.
+- Committed and pushed all solutions.
+- 🔗 **Code Links:**  
+👉 [Scenario Based Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-base-code/OopsScenarioBasedProblems/src/com/day10)
+
+
+ ### 🗓 Day 25 – Scenario-Based Practice  
+**(Date: 19-Jan-2026)**
+- Solved **1** scenario-based problems.
+- Focused on logical thinking and real-world problem solving.
+- Committed and pushed all solutions.
+- 🔗 **Code Links:**  
+👉 [Scenario Based Problems](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-base-code/OopsScenarioBasedProblems/src/com/day11)  
 ---
 
 ## 🧮 Section C : LeetCode-based Problems Progress
