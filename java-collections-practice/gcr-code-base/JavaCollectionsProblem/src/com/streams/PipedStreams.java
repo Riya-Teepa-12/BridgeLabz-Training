@@ -4,7 +4,7 @@ import java.io.PipedInputStream;
 import java.io.PipedOutputStream;
 import java.io.IOException;
 
-// Writer Thread
+
 class WriterThread extends Thread {
     private PipedOutputStream pos;
 
@@ -49,7 +49,7 @@ public class PipedStreams{
     public static void main(String[] args) {
         try {
             PipedOutputStream pos = new PipedOutputStream();
-            PipedInputStream pis = new PipedInputStream(pos); // connect streams
+            PipedInputStream pis = new PipedInputStream(pos); 
 
             WriterThread writer = new WriterThread(pos);
             ReaderThread reader = new ReaderThread(pis);
