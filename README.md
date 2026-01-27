@@ -115,7 +115,7 @@ BridgeLabz-Training/
 - Committed and pushed all work  
 
 🔗 **Code Link:**  
-👉[ List, Set, Queue & Map ] (https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-code-base/JavaCollectionsProblem/src/com/collections)
+👉[ List, Set, Queue & Map ](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-code-base/JavaCollectionsProblem/src/com/collections)
 
 ---
 
@@ -160,7 +160,7 @@ BridgeLabz-Training/
 - Committed and pushed all work  
 
 🔗 **Code Link:**  
-👉[ Java I/O Streams]  (https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-code-base/JavaCollectionsProblem/src/com/streams)
+👉[ Java I/O Streams](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-code-base/JavaCollectionsProblem/src/com/streams)
 
 ---
 
@@ -183,7 +183,7 @@ BridgeLabz-Training/
 - Committed and pushed all work  
 
 🔗 **Code Link:**  
-👉 [Exception Handling] (https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-code-base/JavaCollectionsProblem/src/com/exceptionalhandling)  
+👉 [Exception Handling](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-code-base/JavaCollectionsProblem/src/com/exceptionalhandling)  
 
 ---
 
@@ -232,8 +232,8 @@ BridgeLabz-Training/
 - Committed and pushed all work  
 
 🔗 **Code Links:**  
-👉 [Regex] (https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-code-base/JavaCollectionsProblem/src/com/regex) 
-👉 [JUnit Testing] (https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-code-base/JavaCollectionsProblem/src/com/junit)
+👉 [Regex](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-code-base/JavaCollectionsProblem/src/com/regex) 
+👉 [JUnit Testing](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-code-base/JavaCollectionsProblem/src/com/junit)
 
 ---
 
@@ -272,8 +272,8 @@ BridgeLabz-Training/
 - Committed work  
 
 🔗 **Code Links:**  
-👉 [Annotations] (https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-code-base/JavaCollectionsProblem/src/com/annotation)
-👉 [Reflection] (https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-code-base/JavaCollectionsProblem/src/com/reflection) 
+👉 [Annotations](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-code-base/JavaCollectionsProblem/src/com/annotation)
+👉 [Reflection](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-code-base/JavaCollectionsProblem/src/com/reflection) 
 
 ---
 
