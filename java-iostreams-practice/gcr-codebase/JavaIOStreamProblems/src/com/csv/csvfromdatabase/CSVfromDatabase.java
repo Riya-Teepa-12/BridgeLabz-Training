@@ -29,7 +29,7 @@ public class CSVfromDatabase {
     }
 
     private static void writeMockData(FileWriter writer) throws IOException {
-        writer.append("1,Abuzar Khan,IT,75000\n");
+        writer.append("1,Riya Teepa,IT,75000\n");
         writer.append("2,Jane Smith,HR,65000\n");
         writer.append("3,Bob Johnson,IT,80000\n");
         writer.append("4,Alice Brown,Finance,70000\n");
