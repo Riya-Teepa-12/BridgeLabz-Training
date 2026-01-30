@@ -49,12 +49,12 @@ public class ExamScanner<T extends AnswerSheet> {
                 for (int i = 1; i < parts.length; i++) {
                     answers[i - 1] = parts[i].trim().toUpperCase();
                 }
-
+                
                 // calculate score
                 int score = calculateScore(answers);
                 studentScores.put(studentName, score);
             }
-
+              
         } catch (IOException e) {
             System.out.println("Error reading file: " + e.getMessage());
         }
@@ -65,7 +65,7 @@ public class ExamScanner<T extends AnswerSheet> {
         String[] correct = answerKey.getCorrectAnswers();
         int score = 0;
         int maxQuestions = Math.min(studentAnswers.length, correct.length);
-
+        
         for (int i = 0; i < maxQuestions; i++) {
             if (studentAnswers[i].equals(correct[i])) {
                 score++;
