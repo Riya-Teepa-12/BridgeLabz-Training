@@ -1,0 +1,37 @@
+[
+  {
+    "Salary": 75000,
+    "Department": "IT",
+    "ID": 1,
+    "Age": 30,
+    "Name": "Jhonson Doe"
+  },
+  {
+    "Salary": 65000,
+    "Department": "HR",
+    "ID": 2,
+    "Age": 25,
+    "Name": "Jhony Smith"
+  },
+  {
+    "Salary": 70000,
+    "Department": "Finance",
+    "ID": 3,
+    "Age": 28,
+    "Name": "Dolly Johnson"
+  },
+  {
+    "Salary": 80000,
+    "Department": "IT",
+    "ID": 4,
+    "Age": 32,
+    "Name": "Job Brown"
+  },
+  {
+    "Salary": 68000,
+    "Department": "HR",
+    "ID": 5,
+    "Age": 27,
+    "Name": "Charlie Wilson"
+  }
+]
