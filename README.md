@@ -22,18 +22,14 @@ The training is organized into structured branches covering different aspects of
 - **dsa-practice**  
   Week 3: Data Structures & Algorithms
 
-### 🔹 java-collections-practice  
-**🗓 Week 4:** Collections Framework in Java  
+- **java-collections-practice** 
+  Week 4: Collections Framework in Java  
 
----
+- **java-iostreams-practice** 
+  Week 5: Java I/O Streams  
 
-### 🔹 java-iostreams-practice  
-**🗓 Week 5:** Java I/O Streams  
-
----
-
-### 🔹 java8-programming-practice  
-**🗓 Week 6:** Java 8 Features  
+- **java8-programming-practice**  
+  Week 6: Java 8 Features  
 ---
 
 ## 📂 Project Structure
