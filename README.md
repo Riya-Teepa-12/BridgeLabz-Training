@@ -22,6 +22,18 @@ The training is organized into structured branches covering different aspects of
 - **dsa-practice**  
   Week 3: Data Structures & Algorithms
 
+### 🔹 java-collections-practice  
+**🗓 Week 4:** Collections Framework in Java  
+
+---
+
+### 🔹 java-iostreams-practice  
+**🗓 Week 5:** Java I/O Streams  
+
+---
+
+### 🔹 java8-programming-practice  
+**🗓 Week 6:** Java 8 Features  
 ---
 
 ## 📂 Project Structure
@@ -104,6 +116,22 @@ BridgeLabz-Training/
 │   ├── 📁 leet-code-codebase/                # LeetCode solutions
 │   └── 📁 scenario-based-codebase/           # Real-world problems
 |
+├── 📁 java8-programming-practice/
+│   ├── 📁 gcr-codebase/
+│   │  └── 📁 Java8Concepts/
+│   │       └── 📁 src/
+│   │           └── 📁 com/
+│   │               ├── 📁 lambdas/           # Lambda expressions, functional interfaces, syntax
+│   │               └── 📁 methodreferences/  # Static, instance, constructor references
+│   │               └── 📁 interfaces/        # Default methods, static methods, functional interfaces
+|   |               └── 📁 streams/           # Stream API, intermediate & terminal operations
+│   │               └── 📁 collectors/        # Grouping, partitioning, summarizing collectors
+│   │               └── 📁 workshop/          # Mini projects & real-world stream problems
+│   │               └── 📁 designprinciples/  # SOLID principles, best practices, clean-code guidelines
+|   |
+│   ├── 📁 leet-code-codebase/                # LeetCode solutions
+│   └── 📁 scenario-based-codebase/           # Real-world problems
+|
 └── README.md
 
 ```
@@ -171,6 +199,15 @@ BridgeLabz-Training/
 | 28  | 23-Jan  | CSV Data Handling in Java  | Read/write CSV, validation, large-file processing, dataset merging |
 | 29  | 24-Jan  | JSON Data Handling in Java | JSON parsing, POJO mapping, schema validation, CSV to JSON, etc. |
 
+## 🗓 Week 6 : Java 8 Features
+
+| Day | Date   | Topic                         | Coverage                                                                 |
+|-----|--------|-------------------------------|--------------------------------------------------------------------------|
+| 30  | 27-Jan | Lambdas & Interfaces          | Lambdas, functional interfaces, method references                         |
+| 31  | 28-Jan | Streams & Collectors          | Stream API, intermediate operations, terminal operations, collectors, parallel streams |
+| 32  | 31-Jan | Design Principles & Patterns  | SOLID principles, GoF design patterns, clean code principles              |
+
+
 ## 🔑 Key Concepts Covered
 
 ### Core Java
@@ -200,6 +237,152 @@ BridgeLabz-Training/
 - Graph
 ---
 
+## 📦 Collections Framework (java-collections-practice)
+
+### 🔹 Generics
+- Type-safe collections
+- Generic classes and methods
+- Type parameters
+- Bounded types and wildcards
+- Type erasure
+
+### 🔹 Collections Overview
+- Purpose and benefits of Java Collections Framework
+
+### 🔹 Collection Hierarchy
+- `Iterable`
+- `Collection`
+- `List`
+- `Set`
+- `Queue`
+- `Map`
+
+### 🔹 List Implementations
+- `ArrayList`
+- `LinkedList`
+- `Vector`
+
+### 🔹 Set Implementations
+- `HashSet`
+- `LinkedHashSet`
+- `TreeSet`
+
+### 🔹 Map Implementations
+- `HashMap`
+- `LinkedHashMap`
+- `TreeMap`
+- `Hashtable`
+
+### 🔹 Queue & Deque
+- `PriorityQueue`
+- `ArrayDeque`
+
+### 🔹 Hands-on Practice
+- CRUD operations
+- Iteration techniques
+- Ordering and sorting
+- Performance comparison examples
+
+---
+
+## 📁 Java I/O Streams & Core Concepts
+
+### 🔹 I/O Streams
+- Byte streams and character streams
+- Buffering
+- Object serialization
+- Efficient file handling
+
+### 🔹 Exception Handling
+- Checked vs unchecked exceptions
+- `try-catch-finally`
+- Multiple and nested catch blocks
+- `throw` vs `throws`
+- Custom exceptions
+- Try-with-resources
+
+### 🔹 Regex & JUnit Testing
+- Pattern matching
+- Validation rules
+- Groups and quantifiers
+- Unit testing concepts
+- Assertions
+- Test lifecycle
+
+### 🔹 Reflection
+- Runtime class inspection
+- Accessing private members
+- Dynamic method invocation
+- Constructors and proxies
+- Annotation processing
+
+### 🔹 Annotations
+- Built-in annotations
+- Meta-annotations
+- Custom annotations
+- Retention policies
+- Annotation processors
+- Framework usage
+
+### 🔹 Problem Solving
+- LeetCode challenges
+- Real-world problem scenarios
+
+---
+
+## 📂 Java I/O Streams (java-iostreams-practice)
+
+### 🔹 CSV Data Handling
+- Reading and writing CSV files
+- OpenCSV usage
+- Data validation
+- Object mapping
+- Large-file handling
+
+### 🔹 JSON Data Handling
+- JSON creation and parsing
+- POJO mapping
+- Schema validation
+- Dataset merging
+- CSV to JSON conversion
+
+---
+
+## 🚀 Java 8 Features (java8-programming-practice)
+
+### 🔹 Lambda Expressions
+- Functional programming syntax
+- Practical usage scenarios
+
+### 🔹 Functional Interfaces
+- `Predicate`
+- `Function`
+- `Consumer`
+- `Supplier`
+
+### 🔹 Method References
+- Static method references
+- Instance method references
+- Constructor references
+
+### 🔹 Interface Enhancements
+- Default methods
+- Static methods
+
+### 🔹 Streams API
+- Lazy evaluation
+- Stream pipelines
+- Parallel streams
+
+### 🔹 Collectors
+- Grouping
+- Partitioning
+- Summarization
+- Joining
+
+### 🔹 Workshop
+- Real-world data processing using Streams API
+
 ## 🛠️ Technologies Used
 
 - **Language:** Java (JDK 8+)
@@ -210,10 +393,10 @@ BridgeLabz-Training/
 
 ## 📊 Training Statistics
 
-- **Total Days:** 23
-- **Total Programs:** 180+
+- **Total Days:** 35
+- **Total Programs:** 280+
 - **Levels Covered:** Beginner → Intermediate
-- **Coding Hours:** 100+
+- **Coding Hours:** 200+
 
 ---
 
