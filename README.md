@@ -390,9 +390,9 @@ BridgeLabz-Training/
 ## 📊 Training Statistics
 
 - **Total Days:** 35
-- **Total Programs:** 280+
+- **Total Programs:** 680+
 - **Levels Covered:** Beginner → Intermediate
-- **Coding Hours:** 200+
+- **Coding Hours:** 500+
 
 ---
 
