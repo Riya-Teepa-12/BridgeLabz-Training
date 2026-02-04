@@ -175,7 +175,7 @@ BridgeLabz-Training/
 
 ---
 
-## 📘 Week 4 : Collections Framework in Java
+## 🗓️ Week 4 : Collections Framework in Java
 
 | Day | Date    | Topic                     | Coverage |
 |----:|---------|---------------------------|----------|
@@ -188,14 +188,14 @@ BridgeLabz-Training/
 
 ---
 
-## 📗 Week 5 : Java I/O Streams
+## 🗓️ Week 5 : Java I/O Streams
 
 | Day | Date    | Topic                     | Coverage |
 |----:|---------|---------------------------|----------|
 | 28  | 23-Jan  | CSV Data Handling in Java  | Read/write CSV, validation, large-file processing, dataset merging |
 | 29  | 24-Jan  | JSON Data Handling in Java | JSON parsing, POJO mapping, schema validation, CSV to JSON, etc. |
 
-## 🗓 Week 6 : Java 8 Features
+## 🗓️ Week 6 : Java 8 Features
 
 | Day | Date   | Topic                         | Coverage                                                                 |
 |-----|--------|-------------------------------|--------------------------------------------------------------------------|
