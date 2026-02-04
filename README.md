@@ -1,169 +1,134 @@
-# 🚀 BridgeLabz Training Journey
+# 💻 BridgeLabz Training
 
-A comprehensive Java programming training repository covering Core Java fundamentals to Object-Oriented Programming concepts.
-
----
-
-## 📘 Training Overview
-
-This repository documents my learning journey at BridgeLabz, spanning from **December 15, 2025 to present**.  
-The training is organized into structured branches covering different aspects of Java development.
+## 🗓 Week 7: Java Design Principles & Design Patterns
 
 ---
 
-## 🌿 Repository Branches
+## 📘 Section A: Training Learning Progress
 
-- **core-java-practice**  
-  Week 1–2: Fundamentals of Java Programming
+### 🗓 Day 32 – Design Principles & Design Patterns  
+**Date:** 31-Jan-2026
 
-- **java-oops-practice**  
-  Week 2: Object-Oriented Programming
-
-- **dsa-practice**  
-  Week 3: Data Structures & Algorithms
-
----
-
-## 📂 Project Structure
+### 🔧 Project Setup
+Set up and revised the `java-design-pattern-practice` branch structure:
 ```
 BridgeLabz-Training/
-│
-├── 📁 core-java-practice/
-│   ├── 📁 gcr-codebase/
-│   │   ├── 📁 prerequisites/          # Basic Java programs 
-│   │   ├── 📁 programming-elements/   # Java programming elements 
-│   │   ├── 📁 control-flows/          # If-else, loops, switch 
-│   │   ├── 📁 arrays/                 # Array operations
-│   │   ├── 📁 methods/                # Method practices
-│   │   ├── 📁 strings/                # String manipulation 
-│   │   └── 📁 Extras/                 # Built-in methods
-│   ├── 📁 leet-code-codebase/         # LeetCode solutions
-│   └── 📁 scenario-based-codebase/    # Real-world problems
-│
-└── 📁 java-oops-practice/
-│   └── 📁 gcr-codebase/
-│   │  └── 📁 JavaOopsConcepts/
-│   │       └── 📁 src/
-│   │           └── 📁 com/
-│   │               ├── 📁 classandobject/    # Procedural vs OOP, fundamentals
-│   │               └── 📁 constructor/       # Constructor, access modifiers
-│   │               └── 📁 inbuiltfunctions/  # Keywords, instance vs class members
-│   │               └── 📁 objectmodeling/    # Diagrams, relationships, communication
-│   │               └── 📁 inheritance/       # Types, method overriding, & access modifiers
-│   │               └── 📁 encapsulation/     # Abstract class, interface, & polymorphism
-│   ├── 📁 leet-code-codebase/                # LeetCode solutions
-│   └── 📁 scenario-based-codebase/           # Real-world problems
-|
-└── 📁 dsa-practice/
-│   └── 📁 gcr-codebase/
-│   │  └── 📁 DSAConcepts/
-│   │       └── 📁 src/
-│   │           └── 📁 com/
-│   │               ├── 📁 linkedlists/                 # singly, doubly & circular
-│   │               └── 📁 stacksandqueues/             # Last-In-First-Out (LIFO) and First-In-First-Out (FIFO)
-│   │               └── 📁 hashmapsandhashfunctions/    # Key-Value pairs
-│   │               └── 📁 sorting/                     # Sorting algorithms
-│   ├── 📁 leet-code-codebase/                          # LeetCode solutions
-│   └── 📁 scenario-based-codebase/                     # Real-world problems
-|
+│── java-design-pattern-practice/
+│ │── gcr-codebase/
+│ │ └── DesignConcepts/
+│ │ └── src/
+│ │ └── com/
+│ │ ├── designprinciples/
+│ │ └── multithreading/
+│ │
+│ │── leet-code-codebase/
+│ └── scenario-based-codebase/
 └── README.md
 
 ```
+### 📚 Concepts Studied
 
-## 🗓️ Week 1: Core Java Fundamentals
+#### SOLID Principles
+- Single Responsibility Principle (SRP)
+- Open/Closed Principle (OCP)
+- Liskov Substitution Principle (LSP)
+- Interface Segregation Principle (ISP)
+- Dependency Inversion Principle (DIP)
 
-| Day | Date   | Topic               | Programs Completed |
-|----:|--------|---------------------|--------------------|
-| 1   | 15-Dec | Git & GitHub Setup  | Repository initialization, Git commands |
-| 2   | 16-Dec | Java Basics         | 10 prerequisite programs |
-| 3   | 17-Dec | Programming Elements| 31 programs (Level 1 & 2) |
-| 4   | 18-Dec | Control Flows       | 43 programs (3 levels) |
-| 5   | 19-Dec | Arrays              | 18 programs (2 levels) |
-| 6   | 20-Dec | Methods             | 35 programs (3 levels) |
+#### Additional Design Principles
+- DRY (Don’t Repeat Yourself)
+- KISS (Keep It Simple, Stupid)
+- YAGNI (You Aren’t Gonna Need It)
+- Separation of Concerns
+- Programming to Interfaces
+- Favor Composition over Inheritance
 
----
+#### Object Calisthenics (Clean Code Rules)
+- One level of indentation
+- One dot per line
+- Small, cohesive classes
 
-## 🗓️ Week 2: Advanced Concepts
+### 🧩 Design Patterns
+- Studied GoF design patterns overview:
+  - Creational
+  - Structural
+  - Behavioral
 
-| Day | Date   | Topic | Programs Completed |
-|----:|--------|-------|--------------------|
-| 1 | 22-Dec | Strings | 30 programs (3 levels) |
-| 2 | 23-Dec | Built-In Methods | Recursion, Date/Time operations |
-| 3 | 24-Dec | LeetCode & Scenarios | 40 LeetCode (arrays, strings, math) |
-| 4 | 26-Dec | Scenario-Based | 15 business logic applications |
-| 5 | 26-Dec | OOPs Concepts | 10 programs (2 levels) |
-| 6 | 27-Dec | Constructors | 13 programs |
-| 7 | 29-Dec | Static, This & Final | 7 programs |
-| 8 | 30-Dec | Object Modelling | 2 levels of programs |
-| 9 | 31-Dec | Inheritance | 11 programs |
-| 10 | 01-Jan | Encapsulation, Abstraction, Polymorphism | 8 programs |
-| 11 | 02-Jan | OOPs Scenario-Based | 5 programs |
+#### Implemented Patterns
+- Singleton
+- Factory
+- Observer
+- Builder
 
----
+### 📐 Analysis & Practice
+- Analyzed UML diagrams
+- Studied real-world analogies
+- Solved pattern-based exercises
+- Implemented mini design problems
 
-## 🗓️ Week 3: DSA Concepts
+### 🔄 Version Control
+- Committed and pushed all work
 
-| Day | Date | Topic | Programs Completed |
-|----:|------|-------|--------------------|
-| 1 | 02-Jan | Linked List | 11 problems |
-| 2 | 03-Jan | Stack, Queue, HashMap | 10 problems |
-| 3 | 05-Jan | Sorting | 7 programs |
-| 4 | 06-Jan | Linear & Binary Search | 16 programs |
-| 5 | 07-Jan | Algorithm Analysis | 6 programs |
-
----
-
-##  🗓️ Week 4: JAVA Collections
-## 🔑 Key Concepts Covered
-
-### Core Java
-- Variables, data types, operators
-- Control structures
-- Arrays
-- Methods
-- Strings
-- LeetCode & real-world problems
-
-### Object-Oriented Programming
-- Classes & Objects
-- Encapsulation
-- Constructors
-- Abstraction
-- Inheritance
-- Polymorphism
-
-### Data Structures & Algorithms
-- Time & space complexity
-- Linked Lists
-- Stacks & Queues
-- HashMaps
-- Sorting algorithms
-- Searching algorithms
-- Tree
-- Graph
----
-
-## 🛠️ Technologies Used
-
-- **Language:** Java (JDK 8+)
-- **Version Control:** Git & GitHub
-- **IDE:** IntelliJ IDEA / Eclipse / VS Code
+🔗 **Code Link:**  
+👉 [Design Principles & Patterns](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/java-design-pattern-practice/java-design-pattern-practice/gcr-code-base/DesinPatternsConceptProblem/src/com/librarycasestudy/classdiagrams)
 
 ---
 
-## 📊 Training Statistics
+### 🗓 Day 33 – Multithreading in Java  
+**Date:** 02-Feb-2026
 
-- **Total Days:** 23
-- **Total Programs:** 180+
-- **Levels Covered:** Beginner → Intermediate
-- **Coding Hours:** 100+
+### 🧠 Concepts Learned
+- Process vs Thread
+- Benefits and drawbacks of multithreading
+
+### 🔄 Java Thread Lifecycle
+- NEW
+- RUNNABLE
+- BLOCKED
+- WAITING
+- TIMED_WAITING
+- TERMINATED
+
+### 🧵 Thread Creation Techniques
+- Extending `Thread` class
+- Implementing `Runnable` interface
+
+### ⚙️ Core Thread Methods Practiced
+- `start()`
+- `sleep()`
+- `join()`
+- `yield()`
+- `isAlive()`
+
+### 🛠 Advanced Thread Concepts
+- Thread priorities
+- Daemon threads
+- Thread interruption handling
+- Synchronization for shared database resources
+
+### 🚀 Performance Comparison
+- Single-threaded vs Multi-threaded payroll insertion
+
+### 🧪 Use Cases Implemented
+- Parallel employee inserts
+- Salary updates using threads
+- Database consistency checks using JUnit
+- Execution time logging and result validation with test cases
+
+### 🔄 Version Control
+- Committed and pushed all work
+
+🔗 **Code Link:**  
+👉 [Multithreading](https://github.com/Riya-Teepa-12/BridgeLabz-Training/tree/java-design-pattern-practice/java-design-pattern-practice/gcr-code-base/DesinPatternsConceptProblem/src/com/multithreading)
 
 ---
 
-## 🎓 Learnings & Best Practices
+## 🧩 Section B: Scenario-Based Problems Progress
 
-- Clean code structure
-- Proper naming conventions
-- Regular Git commits
-- Problem-solving mindset
-- Clear documentation
+*(In Progress)*
+
+---
+
+## 🧮 Section C: LeetCode-Based Problems Progress
+
+*(In Progress)*
