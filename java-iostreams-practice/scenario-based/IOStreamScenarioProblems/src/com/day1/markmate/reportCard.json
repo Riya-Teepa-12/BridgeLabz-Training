@@ -1,0 +1,16 @@
+[
+  {
+    "studentId": 101,
+    "name": "Siya",
+    "total": 263,
+    "average": 87.67,
+    "grade": "B"
+  },
+  {
+    "studentId": 103,
+    "name": "Jiya",
+    "total": 278,
+    "average": 92.67,
+    "grade": "A"
+  }
+]
