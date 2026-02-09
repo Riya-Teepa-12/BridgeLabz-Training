@@ -15,11 +15,11 @@ BridgeLabz-Training/
 │ ├── gcr-codebase/
 │ │ └── DBMSJDBCConcepts/
 │ │ ├── src/
-│ │ │ └── main/
-│ │ │ ├── resources/
-│ │ │ └── com/dbmsjdbc/sql/
-│ │ └── pom.xml
-│ ├── leet-code-codebase/
+│ │ │     └── com/dbmsconcepts/mysql/
+│ │ │ 
+│ │ │ 
+│ │ 
+│ |
 │ └── scenario-based-codebase/
 └── README.md
 ```
