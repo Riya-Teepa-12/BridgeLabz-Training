@@ -1,0 +1,63 @@
+/* Simple CRUD Application
+Create a console-based Employee Management System with:
+Add employee
+View all employees
+Update employee salary
+Delete employee
+Search employee by name
+*/
+
+ CREATE TABLE Employee (
+    id INT PRIMARY KEY,
+    name VARCHAR(50),
+    salary DOUBLE
+);
+  
+Table EMPLOYEE created successfully.
+  
+ SELECT * FROM Employee;
+ 
+ EMPLOYEE TABLE
+------------------------------
+No records found.
+  
+ INSERT INTO Employee VALUES (101, 'Rahul', 45000);
+INSERT INTO Employee VALUES (102, 'Neha', 55000);
+INSERT INTO Employee VALUES (103, 'Amit', 40000);
+
+3 records inserted successfully.
+
+SELECT * FROM Employee;
+EMPLOYEE TABLE
+------------------------------------------------
+ID     NAME      SALARY
+------------------------------------------------
+101    Rahul     45000
+102    Neha      55000
+103    Amit      40000
+------------------------------------------------
+
+// Update Employee Salary
+ UPDATE Employee SET salary = 50000 WHERE id = 101;
+ 1 record updated successfully.
+ 
+ //Search Employee by Name
+ SELECT * FROM Employee WHERE name = 'Neha';
+ EMPLOYEE FOUND
+--------------------------------
+ID     NAME      SALARY
+--------------------------------
+102    Neha      55000
+--------------------------------
+//Delete Employee
+DELETE FROM Employee WHERE id = 103;
+1 record deleted successfully.
+
+//View All Employees
++--------------+--------+--------+------------+--------------+-----------------+
+| emp_name     | emp_id | salary | department | joining_date | email           |
++--------------+--------+--------+------------+--------------+-----------------+
+| Rahul Sharma |      1 |  45000 | IT         | 2024-01-15   | rahul@gmail.com |
+| Neha Singh   |      4 |  60000 | Finance    | 2022-09-20   | neha@gmail.com  |
++--------------+--------+--------+------------+--------------+-----------------+
+ 
