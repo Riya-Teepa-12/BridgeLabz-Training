@@ -1,0 +1,134 @@
+ CREATE DATABASE system_administration;
+Query OK, 1 row affected (0.01 sec)
+
+mysql> USE system_administration;
+Database changed
+mysql> CREATE TABLE specialties (
+    ->     specialty_id INT PRIMARY KEY AUTO_INCREMENT,
+    ->     specialty_name VARCHAR(100) UNIQUE NOT NULL
+    -> );
+Query OK, 0 rows affected (0.03 sec)
+
+mysql> CREATE TABLE doctors (
+    ->     doctor_id INT PRIMARY KEY AUTO_INCREMENT,
+    ->     doctor_name VARCHAR(100),
+    ->     specialty_id INT,
+    ->
+    ->     FOREIGN KEY (specialty_id) REFERENCES specialties(specialty_id)
+    -> );
+Query OK, 0 rows affected (0.03 sec)
+
+mysql> CREATE TABLE audit_log (
+    ->     log_id INT PRIMARY KEY AUTO_INCREMENT,
+    ->     username VARCHAR(50),
+    ->     action_type VARCHAR(20),
+    ->     table_name VARCHAR(50),
+    ->     action_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    ->     old_data TEXT,
+    ->     new_data TEXT
+    -> );
+Query OK, 0 rows affected (0.02 sec)
+
+mysql> INSERT INTO specialties (specialty_name)
+    -> VALUES ('Cardiology'), ('Dermatology'), ('Orthopedics');
+Query OK, 3 rows affected (0.01 sec)
+Records: 3  Duplicates: 0  Warnings: 0
+
+mysql> INSERT INTO doctors (doctor_name, specialty_id)
+    -> VALUES ('Dr. Amit Kumar', 1);
+Query OK, 1 row affected (0.01 sec)
+
+mysql> INSERT INTO doctors (doctor_name, specialty_id)
+    -> VALUES ('Dr. Amit Kumar', 1);
+Query OK, 1 row affected (0.01 sec)
+
+mysql> INSERT INTO specialties (specialty_name)
+    -> VALUES ('Neurology');
+Query OK, 1 row affected (0.01 sec)
+
+mysql> UPDATE specialties
+    -> SET specialty_name = 'General Medicine'
+    -> WHERE specialty_id = 3;
+Query OK, 1 row affected (0.03 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql> DELETE FROM specialties
+    -> WHERE specialty_id = 1
+    -> AND (
+    ->     SELECT COUNT(*)
+    ->     FROM doctors
+    ->     WHERE doctors.specialty_id = specialties.specialty_id
+    -> ) = 0;
+Query OK, 0 rows affected (0.01 sec)
+
+mysql> SHOW TABLES;
++---------------------------------+
+| Tables_in_system_administration |
++---------------------------------+
+| audit_log                       |
+| doctors                         |
+| specialties                     |
++---------------------------------+
+3 rows in set (0.00 sec)
+
+mysql> DESCRIBE specialties;
++----------------+--------------+------+-----+---------+----------------+
+| Field          | Type         | Null | Key | Default | Extra          |
++----------------+--------------+------+-----+---------+----------------+
+| specialty_id   | int          | NO   | PRI | NULL    | auto_increment |
+| specialty_name | varchar(100) | NO   | UNI | NULL    |                |
++----------------+--------------+------+-----+---------+----------------+
+2 rows in set (0.01 sec)
+
+mysql> DESCRIBE doctors;
++--------------+--------------+------+-----+---------+----------------+
+| Field        | Type         | Null | Key | Default | Extra          |
++--------------+--------------+------+-----+---------+----------------+
+| doctor_id    | int          | NO   | PRI | NULL    | auto_increment |
+| doctor_name  | varchar(100) | YES  |     | NULL    |                |
+| specialty_id | int          | YES  | MUL | NULL    |                |
++--------------+--------------+------+-----+---------+----------------+
+3 rows in set (0.00 sec)
+
+mysql> DESCRIBE audit_log;
++-------------+-------------+------+-----+-------------------+-------------------+
+| Field       | Type        | Null | Key | Default           | Extra             |
++-------------+-------------+------+-----+-------------------+-------------------+
+| log_id      | int         | NO   | PRI | NULL              | auto_increment    |
+| username    | varchar(50) | YES  |     | NULL              |                   |
+| action_type | varchar(20) | YES  |     | NULL              |                   |
+| table_name  | varchar(50) | YES  |     | NULL              |                   |
+| action_time | timestamp   | YES  |     | CURRENT_TIMESTAMP | DEFAULT_GENERATED |
+| old_data    | text        | YES  |     | NULL              |                   |
+| new_data    | text        | YES  |     | NULL              |                   |
++-------------+-------------+------+-----+-------------------+-------------------+
+7 rows in set (0.00 sec)
+
+mysql> CREATE TRIGGER specialty_insert_audit
+    -> AFTER INSERT ON specialties
+    -> FOR EACH ROW
+    -> INSERT INTO audit_log
+    -> (username, action_type, table_name, new_data)
+    -> VALUES
+    -> ('admin', 'INSERT', 'specialties', NEW.specialty_name);
+Query OK, 0 rows affected (0.01 sec)
+
+mysql> SELECT *
+    -> FROM audit_log
+    -> WHERE table_name = 'specialties'
+    -> AND action_time BETWEEN '2026-02-01' AND '2026-02-28'
+    -> AND username = 'admin';
+Empty set (0.00 sec)
+
+mysql> SHOW TABLES;
++---------------------------------+
+| Tables_in_system_administration |
++---------------------------------+
+| audit_log                       |
+| doctors                         |
+| specialties                     |
++---------------------------------+
+3 rows in set (0.00 sec)
+
+mysql> SELECT * FROM audit_log;
+Empty set (0.00 sec)
