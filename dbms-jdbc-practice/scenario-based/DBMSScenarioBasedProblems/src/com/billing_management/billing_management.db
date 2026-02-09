@@ -1,0 +1,187 @@
+
+mysql> CREATE DATABASE billing_payments;
+Query OK, 1 row affected (0.01 sec)
+
+mysql> USE billing_payments;
+Database changed
+mysql> CREATE TABLE patients (
+    ->     patient_id INT PRIMARY KEY AUTO_INCREMENT,
+    ->     patient_name VARCHAR(100) NOT NULL
+    -> );
+Query OK, 0 rows affected (0.02 sec)
+
+mysql> CREATE TABLE doctors (
+    ->     doctor_id INT PRIMARY KEY AUTO_INCREMENT,
+    ->     doctor_name VARCHAR(100),
+    ->     specialization VARCHAR(100),
+    ->     consultation_fee DECIMAL(10,2)
+    -> );
+Query OK, 0 rows affected (0.03 sec)
+
+mysql> CREATE TABLE visits (
+    ->     visit_id INT PRIMARY KEY AUTO_INCREMENT,
+    ->     patient_id INT,
+    ->     doctor_id INT,
+    ->     visit_date DATE,
+    ->
+    ->     FOREIGN KEY (patient_id) REFERENCES patients(patient_id),
+    ->     FOREIGN KEY (doctor_id) REFERENCES doctors(doctor_id)
+    -> );
+Query OK, 0 rows affected (0.03 sec)
+
+mysql> CREATE TABLE bill_items (
+    ->     item_id INT PRIMARY KEY AUTO_INCREMENT,
+    ->     visit_id INT,
+    ->     description VARCHAR(100),
+    ->     amount DECIMAL(10,2),
+    ->
+    ->     FOREIGN KEY (visit_id) REFERENCES visits(visit_id)
+    -> );
+Query OK, 0 rows affected (0.03 sec)
+
+mysql> CREATE TABLE bills (
+    ->     bill_id INT PRIMARY KEY AUTO_INCREMENT,
+    ->     visit_id INT,
+    ->     total_amount DECIMAL(10,2),
+    ->     payment_status VARCHAR(20) DEFAULT 'UNPAID',
+    ->
+    ->     FOREIGN KEY (visit_id) REFERENCES visits(visit_id)
+    -> );
+Query OK, 0 rows affected (0.02 sec)
+
+mysql> CREATE TABLE payment_transactions (
+    ->     transaction_id INT PRIMARY KEY AUTO_INCREMENT,
+    ->     bill_id INT,
+    ->     payment_date DATE,
+    ->     payment_mode VARCHAR(50),
+    ->     amount DECIMAL(10,2),
+    ->
+    ->     FOREIGN KEY (bill_id) REFERENCES bills(bill_id)
+    -> );
+Query OK, 0 rows affected (0.03 sec)
+
+mysql> INSERT INTO patients (patient_name)
+    ->
+    -> VALUES ('Ravi Sharma'), ('Avneeta Verma');
+Query OK, 2 rows affected (0.01 sec)
+Records: 2  Duplicates: 0  Warnings: 0
+
+mysql>
+mysql>
+mysql>
+mysql> INSERT INTO doctors (doctor_name, specialization, consultation_fee)
+    ->
+    -> VALUES
+    ->
+    -> ('Dr. Jeevan Kumar', 'Cardiology', 900),
+    ->
+    -> ('Dr. Nehesh Singh', 'Dermatology', 800);
+Query OK, 2 rows affected (0.01 sec)
+Records: 2  Duplicates: 0  Warnings: 0
+
+mysql>
+mysql> INSERT INTO visits (patient_id, doctor_id, visit_date)
+    -> VALUES
+    -> (1, 1, '2026-02-25'),
+    -> (2, 2, '2026-02-25');
+Query OK, 2 rows affected (0.01 sec)
+Records: 2  Duplicates: 0  Warnings: 0
+
+mysql> INSERT INTO bill_items (visit_id, description, amount)
+    -> VALUES
+    -> (1, 'Consultation Fee', 800),
+    -> (1, 'ECG Test', 500),
+    -> (2, 'Consultation Fee', 600),
+    -> (2, 'Skin Test', 300);
+Query OK, 4 rows affected (0.01 sec)
+Records: 4  Duplicates: 0  Warnings: 0
+
+mysql> INSERT INTO bills (visit_id, total_amount)
+    -> SELECT
+    ->     visit_id,
+    ->     SUM(amount)
+    -> FROM bill_items
+    -> WHERE visit_id = 1
+    -> GROUP BY visit_id;
+Query OK, 1 row affected (0.01 sec)
+Records: 1  Duplicates: 0  Warnings: 0
+
+mysql> START TRANSACTION;
+Query OK, 0 rows affected (0.00 sec)
+
+mysql>
+mysql> UPDATE bills
+    -> SET payment_status = 'PAID'
+    -> WHERE bill_id = 1;
+Query OK, 1 row affected (0.00 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql>
+mysql> INSERT INTO payment_transactions
+    -> (bill_id, payment_date, payment_mode, amount)
+    -> VALUES
+    -> (1, CURDATE(), 'CASH', 1300);
+Query OK, 1 row affected (0.00 sec)
+
+mysql>
+mysql> COMMIT;
+Query OK, 0 rows affected (0.01 sec)
+
+mysql> SELECT
+    ->     p.patient_name,
+    ->     COUNT(b.bill_id) AS total_bills,
+    ->     SUM(b.total_amount) AS outstanding_amount
+    -> FROM bills b
+    -> JOIN visits v ON b.visit_id = v.visit_id
+    -> JOIN patients p ON v.patient_id = p.patient_id
+    -> WHERE b.payment_status = 'UNPAID'
+    -> GROUP BY p.patient_name;
+Empty set (0.00 sec)
+
+mysql> SELECT
+    ->     d.doctor_name,
+    ->     d.specialization,
+    ->     SUM(b.total_amount) AS total_revenue
+    -> FROM bills b
+    -> JOIN visits v ON b.visit_id = v.visit_id
+    -> JOIN doctors d ON v.doctor_id = d.doctor_id
+    -> WHERE b.payment_status = 'PAID'
+    -> AND v.visit_date BETWEEN '2026-02-01' AND '2026-02-28'
+    -> GROUP BY d.doctor_name, d.specialization
+    -> HAVING total_revenue > 500;
++------------------+----------------+---------------+
+| doctor_name      | specialization | total_revenue |
++------------------+----------------+---------------+
+| Dr. Jeevan Kumar | Cardiology     |       1300.00 |
++------------------+----------------+---------------+
+1 row in set (0.01 sec)
+
+mysql> SHOW TABLES;
++----------------------------+
+| Tables_in_billing_payments |
++----------------------------+
+| bill_items                 |
+| bills                      |
+| doctors                    |
+| patients                   |
+| payment_transactions       |
+| visits                     |
++----------------------------+
+6 rows in set (0.00 sec)
+
+mysql>
+mysql> SELECT * FROM bills;
++---------+----------+--------------+----------------+
+| bill_id | visit_id | total_amount | payment_status |
++---------+----------+--------------+----------------+
+|       1 |        1 |      1300.00 | PAID           |
++---------+----------+--------------+----------------+
+1 row in set (0.00 sec)
+
+mysql> SELECT * FROM payment_transactions;
++----------------+---------+--------------+--------------+---------+
+| transaction_id | bill_id | payment_date | payment_mode | amount  |
++----------------+---------+--------------+--------------+---------+
+|              1 |       1 | 2026-02-09   | CASH         | 1300.00 |
++----------------+---------+--------------+--------------+---------+
+1 row in set (0.00 sec)
