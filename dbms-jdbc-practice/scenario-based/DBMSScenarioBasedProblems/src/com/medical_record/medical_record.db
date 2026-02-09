@@ -1,0 +1,168 @@
+create database Medical_Record;
+Query OK, 1 row affected (0.01 sec)
+
+mysql> use Medical_Record;
+Database changed
+mysql> CREATE TABLE patients (
+    ->     patient_id INT PRIMARY KEY AUTO_INCREMENT,
+    ->     patient_name VARCHAR(100) NOT NULL,
+    ->     contact VARCHAR(15)
+    -> );
+Query OK, 0 rows affected (0.02 sec)
+
+mysql> CREATE TABLE doctors (
+    ->     doctor_id INT PRIMARY KEY AUTO_INCREMENT,
+    ->     doctor_name VARCHAR(100) NOT NULL,
+    ->     specialization VARCHAR(100)
+    -> );
+Query OK, 0 rows affected (0.03 sec)
+
+mysql> CREATE TABLE appointments (
+    ->     appointment_id INT PRIMARY KEY AUTO_INCREMENT,
+    ->     patient_id INT,
+    ->     doctor_id INT,
+    ->     appointment_date DATE,
+    ->     appointment_time TIME,
+    ->     status VARCHAR(20) DEFAULT 'SCHEDULED',
+    ->
+    ->     FOREIGN KEY (patient_id) REFERENCES patients(patient_id),
+    ->     FOREIGN KEY (doctor_id) REFERENCES doctors(doctor_id)
+    -> );
+Query OK, 0 rows affected (0.04 sec)
+
+mysql> CREATE TABLE visits (
+    ->     visit_id INT PRIMARY KEY AUTO_INCREMENT,
+    ->     appointment_id INT,
+    ->     patient_id INT,
+    ->     doctor_id INT,
+    ->     visit_date DATE,
+    ->     diagnosis TEXT,
+    ->     notes TEXT,
+    ->
+    ->     FOREIGN KEY (appointment_id) REFERENCES appointments(appointment_id),
+    ->     FOREIGN KEY (patient_id) REFERENCES patients(patient_id),
+    ->     FOREIGN KEY (doctor_id) REFERENCES doctors(doctor_id)
+    -> );
+Query OK, 0 rows affected (0.05 sec)
+
+mysql> CREATE TABLE prescriptions (
+    ->     prescription_id INT PRIMARY KEY AUTO_INCREMENT,
+    ->     visit_id INT,
+    ->     medicine_name VARCHAR(100),
+    ->     dosage VARCHAR(50),
+    ->     duration VARCHAR(50),
+    ->
+    ->     FOREIGN KEY (visit_id) REFERENCES visits(visit_id)
+    -> );
+Query OK, 0 rows affected (0.04 sec)
+
+mysql> INSERT INTO patients (patient_name, contact)
+    -> VALUES
+    -> ('Riya Teepa', '9876543210'),
+    -> ('Jishan Sharma', '9123456789');
+Query OK, 2 rows affected (0.01 sec)
+Records: 2  Duplicates: 0  Warnings: 0
+
+mysql> INSERT INTO doctors (doctor_name, specialization)
+    -> VALUES
+    -> ('Dr. Jivan Kumar', 'Cardiology'),
+    -> ('Dr. Jivi Singh', 'Dermatology');
+Query OK, 2 rows affected (0.01 sec)
+Records: 2  Duplicates: 0  Warnings: 0
+
+mysql> INSERT INTO appointments
+    -> (patient_id, doctor_id, appointment_date, appointment_time)
+    -> VALUES
+    -> (1, 1, '2026-11-20', '10:30:00'),
+    -> (2, 2, '202-12-20', '11:00:00');
+Query OK, 2 rows affected (0.01 sec)
+Records: 2  Duplicates: 0  Warnings: 0
+
+mysql> START TRANSACTION;
+Query OK, 0 rows affected (0.00 sec)
+
+mysql>
+mysql> INSERT INTO visits
+    -> (appointment_id, patient_id, doctor_id, visit_date, diagnosis, notes)
+    -> VALUES
+    -> (1, 1, 1, CURDATE(), 'High Blood Pressure', 'Lifestyle changes advised');
+Query OK, 1 row affected (0.00 sec)
+
+mysql>
+mysql> UPDATE appointments
+    -> SET status = 'COMPLETED'
+    -> WHERE appointment_id = 1;
+Query OK, 1 row affected (0.00 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql>
+mysql> COMMIT;
+Query OK, 0 rows affected (0.01 sec)
+
+mysql> SELECT
+    ->     v.visit_date,
+    ->     d.doctor_name,
+    ->     v.diagnosis,
+    ->     pr.medicine_name,
+    ->     pr.dosage,
+    ->     pr.duration
+    -> FROM visits v
+    -> JOIN doctors d ON v.doctor_id = d.doctor_id
+    -> LEFT JOIN prescriptions pr ON v.visit_id = pr.visit_id
+    -> WHERE v.patient_id = 1
+    -> ORDER BY v.visit_date DESC;
++------------+-----------------+---------------------+---------------+--------+----------+
+| visit_date | doctor_name     | diagnosis           | medicine_name | dosage | duration |
++------------+-----------------+---------------------+---------------+--------+----------+
+| 2026-02-09 | Dr. Jivan Kumar | High Blood Pressure | NULL          | NULL   | NULL     |
++------------+-----------------+---------------------+---------------+--------+----------+
+1 row in set (0.00 sec)
+
+mysql> INSERT INTO prescriptions
+    -> (visit_id, medicine_name, dosage, duration)
+    -> VALUES
+    -> (1, 'Amlodipine', '5 mg', '30 days'),
+    -> (1, 'Aspirin', '75 mg', '15 days'),
+    -> (1, 'Atorvastatin', '10 mg', '30 days');
+Query OK, 3 rows affected (0.01 sec)
+Records: 3  Duplicates: 0  Warnings: 0
+
+mysql> SHOW TABLES;
++--------------------------+
+| Tables_in_medical_record |
++--------------------------+
+| appointments             |
+| doctors                  |
+| patients                 |
+| prescriptions            |
+| visits                   |
++--------------------------+
+5 rows in set (0.00 sec)
+
+mysql>
+mysql> SELECT * FROM visits;
++----------+----------------+------------+-----------+------------+---------------------+---------------------------+
+| visit_id | appointment_id | patient_id | doctor_id | visit_date | diagnosis           | notes                     |
++----------+----------------+------------+-----------+------------+---------------------+---------------------------+
+|        1 |              1 |          1 |         1 | 2026-02-09 | High Blood Pressure | Lifestyle changes advised |
++----------+----------------+------------+-----------+------------+---------------------+---------------------------+
+1 row in set (0.00 sec)
+
+mysql> SELECT * FROM prescriptions;
++-----------------+----------+---------------+--------+----------+
+| prescription_id | visit_id | medicine_name | dosage | duration |
++-----------------+----------+---------------+--------+----------+
+|               1 |        1 | Amlodipine    | 5 mg   | 30 days  |
+|               2 |        1 | Aspirin       | 75 mg  | 15 days  |
+|               3 |        1 | Atorvastatin  | 10 mg  | 30 days  |
++-----------------+----------+---------------+--------+----------+
+3 rows in set (0.00 sec)
+
+mysql> SELECT * FROM appointments;
++----------------+------------+-----------+------------------+------------------+-----------+
+| appointment_id | patient_id | doctor_id | appointment_date | appointment_time | status    |
++----------------+------------+-----------+------------------+------------------+-----------+
+|              1 |          1 |         1 | 2026-11-20       | 10:30:00         | COMPLETED |
+|              2 |          2 |         2 | 0202-12-20       | 11:00:00         | SCHEDULED |
++----------------+------------+-----------+------------------+------------------+-----------+
+2 rows in set (0.00 sec)
