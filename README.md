@@ -31,11 +31,12 @@ The training is organized into structured branches covering different aspects of
 - **java8-programming-practice**  
   Week 6: Java 8 Features
 
-- java-design-pattern-practice
+- **java-design-pattern-practice**
   Week 7 : Java Design Principles & Design Patterns
 
-- dbms-jdbc-practice
+-**dbms-jdbc-practice**
   Week 8 : DBMS, SQL & JDBC Fundamentals
+  
 ---
 
 ## 📂 Project Structure
@@ -148,18 +149,22 @@ BridgeLabz-Training/
 │   ├── 📁 gcr-codebase/
 │   │   └── 📁 DBMSJDBCConcepts/
 │   │       ├── 📁 src/
-│   │              └── 📁 com/
-│   │                   └── 📁 dbmsconcepts/     
-│   │                         └── 📁 mysql/       # SQL scripts, DBMS fundamentals & MySQL DB
-│   │                             
-│   │       
-│   │                                    
+│   │       │   └── 📁 main/
+│   │       │       ├── 📁 resources/
+│   │       │       │   └── 📁 com/
+│   │       │       │       └── 📁 dbmsjdbc/
+│   │       │       │           └── 📁 sql/         # SQL scripts, DBMS fundamentals & MySQL DB
+│   │       │       └── 📁 java/
+│   │       │           └── 📁 com/
+│   │       │               └── 📁 dbmsjdbc/        # JDBC programs & DAO layer
+│   │       │                        
+│   │       │
+│   │       └── pom.xml                             # Maven configuration and dependency management
 │   │
-│   |                    
+│   ├── 📁 leet-code-codebase/                      # LeetCode solutions
 │   └── 📁 scenario-based-codebase/                 # Real-world problems
 │
 └── README.md
-
 ```
 
 ## 🗓️ Week 1: Core Java Fundamentals
@@ -244,6 +249,7 @@ BridgeLabz-Training/
 |Day|	Date	|Topic	|Coverage                                                                                             |
 |-----|--------|-------------------------------|--------------------------------------------------------------------------| 
 |34 	|06-Feb	 |DBMS & SQL Optimization	       |Normalization, joins, transactions, indexes, tuning & EXPLAIN             |
+|35	  |09-Feb	 |JDBC                           |Fundamentals, Connectivity	JDBC architecture, CRUD operations, transactions, DAO/DTO patterns|
 
 ## 🔑 Key Concepts Covered
 
@@ -438,8 +444,12 @@ BridgeLabz-Training/
 -SQL Commands: DDL, DML, DQL, DCL, TCL
 -Joins: Inner, outer, cross, self joins
 -Advanced Queries: Subqueries, CTEs, window functions
--Indexing: Clustered, non-clustered, composite, full-text
+-Indexing: Clustered, non-clustered, composite, full-text, unique
 -Query Optimization: Execution plans, EXPLAIN, tuning strategies
+-JDBC Architecture: DriverManager, Connection, Statement APIs
+-Database Operations: CRUD using PreparedStatement
+-Transactions: Commit, rollback, savepoints, auto-commit handling
+-Design Patterns: DAO and DTO for database applications
 
 ## 🎓 Learnings & Best Practices
 
