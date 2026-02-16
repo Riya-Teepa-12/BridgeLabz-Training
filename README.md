@@ -11,25 +11,24 @@
 - Set up and revised the `dbms-jdbc-practice` branch structure
 ```
 BridgeLabz-Training/
-│
-├── dbms-jdbc-practice/
-│   ├── gcr-codebase/
-│   │   └── DBMSJDBCConcepts/
-│   │       ├────────── src/
-│   │       │       |   |
-│   │       │       |   |
-│   │       │       │   └── com/
-│   │       │       │       └── dbmsjdbc/
-│   │       │       │           └── mysql/
-│   │       │       └── java/
-│   │       │           └── com/
-│   │       │               └── dbmsjdbc/
-│   │       │                   └── jdbc/
-│   │       │
-│   │       └── pom.xml
+|
+├── 📁 dbms-jdbc-practice/
+│   ├── 📁 gcr-codebase/
+│   │   └── 📁 DBMSConceptsProblem/
+│   │   │   ├── 📁 src/
+│   │   │    │   ├── 📁 com/
+│   │   │   │   │   └── 📁 mysql/         # SQL scripts, DBMS fundamentals & MySQL practice            
+│   │   |
+│   │   ├── 📁 JDBCConcepts/
+│   │       └── 📁 src/
+│   │            └── 📁 main/
+│   │                 └── 📁 java/
+│   │                      └── 📁 com/
+│   │                          └── 📁 dbmsjdbc/  # Complete JDBC project (CRUD, Connection, DAO)
+│   │                      
 │   │
-│   |
-│   └── scenario-based-codebase/
+│   └── 📁 scenario-based-codebase/       # Real-world problem implementations using DBMS & JDBC
+│     
 │
 └── README.md
 ```
