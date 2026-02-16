@@ -13,28 +13,36 @@ The training is organized into structured branches covering different aspects of
 
 ## 🌿 Repository Branches
 
-- **core-java-practice**  
+- **core-java-practice**
+  
   Week 1–2: Fundamentals of Java Programming
 
-- **java-oops-practice**  
+- **java-oops-practice**
+   
   Week 2: Object-Oriented Programming
 
-- **dsa-practice**  
+- **dsa-practice**
+  
   Week 3: Data Structures & Algorithms
 
-- **java-collections-practice** 
+- **java-collections-practice**
+  
   Week 4: Collections Framework in Java  
 
-- **java-iostreams-practice** 
+- **java-iostreams-practice**
+  
   Week 5: Java I/O Streams  
 
-- **java8-programming-practice**  
-  Week 6: Java 8 Features
+- **java8-programming-practice**
+  
+   Week 6: Java 8 Features
 
 - **java-design-pattern-practice**
+  
   Week 7 : Java Design Principles & Design Patterns
 
--**dbms-jdbc-practice**
+- **dbms-jdbc-practice**
+  
   Week 8 : DBMS, SQL & JDBC Fundamentals
   
 ---
@@ -148,12 +156,12 @@ BridgeLabz-Training/
 ├── 📁 dbms-jdbc-practice/
 │   ├── 📁 gcr-codebase/
 │   │   └── 📁 DBMSJDBCConcepts/
-│   │       ├── 📁 src/
-│   │       │   └── 📁 main/
-│   │       │       ├── 📁 resources/
-│   │       │       │   └── 📁 com/
-│   │       │       │       └── 📁 dbmsjdbc/
-│   │       │       │           └── 📁 sql/         # SQL scripts, DBMS fundamentals & MySQL DB
+│   │       ├──── 📁 src/
+│   │       │       |   |
+│   │       │       |   └── 📁 com/
+│   │       │       │        └── 📁 dbmsjdbc/
+│   │       │       │             └── 📁 mysql/   # SQL scripts, DBMS fundamentals & MySQL DB
+│   │       │       │                  
 │   │       │       └── 📁 java/
 │   │       │           └── 📁 com/
 │   │       │               └── 📁 dbmsjdbc/        # JDBC programs & DAO layer
